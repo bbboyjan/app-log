@@ -1,0 +1,1741 @@
+2018-11-27 12:34:12,324 _internal.py[line:88] INFO  * Running on http://0.0.0.0:8091/ (Press CTRL+C to quit)
+2018-11-27 12:34:13,311 base.py[line:878] INFO Added job "dice" to job store "default"
+2018-11-27 12:34:13,311 timer_service.py[line:11] INFO 同步时间开始
+2018-11-27 12:34:13,744 timer_service.py[line:13] INFO 区块链时间为 1543350853
+2018-11-27 12:34:13,747 timer_service.py[line:15] INFO 当前时间为 1543322053
+2018-11-27 12:34:13,747 timer_service.py[line:17] INFO 差值 28800
+2018-11-27 12:34:13,748 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 12:34:13] "POST /init HTTP/1.1" 200 -
+2018-11-27 12:34:16,068 base.py[line:123] INFO Running job "dice (trigger: date[2018-11-27 12:34:16 UTC], next run at: 2018-11-27 12:34:16 UTC)" (scheduled at 2018-11-27 12:34:16.066902+00:00)
+2018-11-27 12:34:16,068 base.py[line:624] INFO Removed job dice
+2018-11-27 12:34:27,813 dice_service.py[line:36] INFO None
+2018-11-27 12:34:27,813 DBEngine.py[line:16] INFO DB INIT Thread-2
+2018-11-27 12:34:28,238 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 12:34:28] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 12:34:33,366 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 12:34:33] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 12:34:34,083 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 12:34:34] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 12:34:35,021 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 12:34:35,043 DBEngine.py[line:16] INFO DB INIT thread83
+2018-11-27 12:34:36,130 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 12:34:36,664 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=83 seed=8c7e2714f858b54628f6f1a399fdb8ada9bd6a2e70a2b0a271a60c0c3e1b4d2a hash=f890b8398d59f2506a0f78890401c695e5807ed3288d49a7f6d85cf75d42f246
+2018-11-27 12:34:50,814 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 12:34:50] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 12:34:51,814 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 12:34:51,849 DBEngine.py[line:16] INFO DB INIT thread84
+2018-11-27 12:34:52,992 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 12:34:53,734 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=84 seed=8bead9b4277e5cd85f07ed684bd645eed5ae4172eef462b6442c556d8f62c980 hash=e2e0d2c5ee93d9dc5c9d398564c8147a6c303712ce8eeb87045697ae8166c5d4
+2018-11-27 12:34:57,870 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 12:34:57] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 12:35:28,751 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 12:35:28] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 12:35:30,300 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 12:35:30,321 DBEngine.py[line:16] INFO DB INIT thread85
+2018-11-27 12:35:31,410 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 12:35:31,764 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=85 seed=dd727253d684b9e4a4610e3694754f9aac0a19f6bb9545f5f4fc588a2deb670c hash=b8c01d18d7972ee48fe58b4786ff3ade3078f15fda46504d709ab5f23d51d831
+2018-11-27 12:43:07,349 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 12:43:07] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 12:47:34,685 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 12:47:34] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 12:49:26,319 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 12:49:26] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 12:52:19,576 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 12:52:19] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 12:58:18,488 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 12:58:18] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 13:01:18,263 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 13:01:18] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 13:01:21,467 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 13:01:21] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 13:04:06,780 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 13:04:06] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 13:04:18,392 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 13:04:18] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 13:04:23,170 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 13:04:23] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 13:04:24,086 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 13:04:24,105 DBEngine.py[line:16] INFO DB INIT thread86
+2018-11-27 13:04:25,191 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 13:04:25,902 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=86 seed=23bdd36947943d83e8179188b0efa64cbbe381ce7073aa451237f9c61f0931b4 hash=2049276ff324b5002f54aa7d806ad8a89e2982bd80a059f01c286054fb21f9de
+2018-11-27 14:33:20,515 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 14:33:20] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 14:33:26,104 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 14:33:26] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 14:33:28,673 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 14:33:28] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 14:33:33,042 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 14:33:33] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 14:33:34,246 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 14:33:34,266 DBEngine.py[line:16] INFO DB INIT thread87
+2018-11-27 14:33:35,358 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 14:33:35,722 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=87 seed=b477c210eb3ac82e92813e4c8b011b1c50d4355bf30db79af71ff100234b22ec hash=2a493b6eabb76daf49cbec556ed113359b7dd195321bbb0cd38f4eefd1b00b90
+2018-11-27 14:33:43,233 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 14:33:43] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 14:33:44,319 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 14:33:44,338 DBEngine.py[line:16] INFO DB INIT thread88
+2018-11-27 14:33:45,424 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 14:33:45,886 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=88 seed=9a7642d9d1da59afdb871472e63e8264ffd9450608a38a8c3adf619cb3f3dbf5 hash=a4a54cd765d6f9e0760b737da9dace91ed9fd2df2bf7d573c29b915dee71ca36
+2018-11-27 15:54:49,122 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 15:54:49] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 15:54:56,888 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 15:54:56] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 15:54:59,785 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 15:54:59,806 DBEngine.py[line:16] INFO DB INIT thread89
+2018-11-27 15:55:00,895 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 15:55:01,531 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=89 seed=ea4a760b76f428317f931c7049068e077108ec0ba9a1820e3c973b7602d0e5c4 hash=0106f2c84d5340aae62031bb54d686e5ecdd522ee341f184bc890c0eedbdcde0
+2018-11-27 15:55:02,005 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 15:55:02,029 DBEngine.py[line:16] INFO DB INIT thread89
+2018-11-27 15:55:04,037 DBEngine.py[line:16] INFO DB INIT thread89
+2018-11-27 16:29:55,896 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:29:55] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:29:56,010 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:29:56] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:29:56,647 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:29:56] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:29:56,814 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:29:56] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:03,908 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:03] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:11,531 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:11] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:11,601 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:11] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:11,735 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:11] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:12,161 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:12] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:12,583 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:12] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:13,007 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:13] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:13,668 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:13] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:13,815 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:13] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:15,256 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:15] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:16,168 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:16] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:16,704 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:16] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:17,707 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:17] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:18,260 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:18] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:18,479 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:18] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:18,526 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:18] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:18,637 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:18] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:18,744 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:18] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:19,499 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:19] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:19,723 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:19] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:20,314 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:20] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:20,591 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:20] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:20,752 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:20] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:21,323 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:21] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:21,742 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:21] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:21,796 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:21] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:21,860 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:21] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:22,527 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:22] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:22,674 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:22] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:22,824 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:22] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:22,859 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:22] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:22,996 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:22] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:23,258 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:23] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:23,599 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:23] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:24,175 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:24] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:24,445 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:24] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:24,483 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:24] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:24,609 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:24] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:24,740 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:24] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:24,992 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:24] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:25,002 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:25] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:25,363 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:25] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:25,438 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:25] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:25,516 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:25] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:25,587 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:25] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:25,647 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:25] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:25,816 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:25] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:25,882 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:25] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:25,999 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:25] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:26,139 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:26] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:26,290 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:26] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:26,567 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:26] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:27,056 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:27] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:27,063 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:27] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:27,181 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:27] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:27,746 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:27] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:27,835 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:27] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:27,854 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:27] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:27,990 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:27] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:28,451 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:28] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:28,570 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:28] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:28,605 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:28] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:28,687 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:28] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:28,910 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:28] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:28,919 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:28] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:29,036 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:29] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:29,048 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:29] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:29,205 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:29] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:29,346 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:29] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:29,433 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:29] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:29,491 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:29] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:29,602 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:29] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:29,714 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:29] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:29,736 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:29] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:29,762 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:29] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:29,830 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:29] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:30,059 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:30] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:30,150 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:30] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:30,287 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:30] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:30,493 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:30] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:30:30,528 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:30:30] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:46,211 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:46] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:47,959 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:47] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:47,992 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:47] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:52,528 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:52] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:52,582 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:52] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:52,692 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:31:52,697 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:52] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:52,821 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:52] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:53,240 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:53] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:53,243 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:53] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:53,383 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:53] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:53,952 DBEngine.py[line:16] INFO DB INIT thread90
+2018-11-27 16:31:54,008 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:54] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:54,205 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:54] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:54,289 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:54] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:54,674 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:54] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:54,687 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:54] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:55,136 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:55] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:55,202 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:31:56,519 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:56] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:56,536 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:56] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:56,598 DBEngine.py[line:16] INFO DB INIT thread91
+2018-11-27 16:31:57,979 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:31:58,676 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:58] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:58,681 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:58] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:58,716 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:31:58] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:31:59,798 DBEngine.py[line:16] INFO DB INIT thread92
+2018-11-27 16:32:00,730 DBEngine.py[line:16] INFO DB INIT thread93
+2018-11-27 16:32:01,892 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:32:02,336 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:02] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:03,356 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:03] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:03,368 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:03] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:03,380 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:03] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:03,560 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:03] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:04,056 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:04] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:04,070 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:04] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:04,079 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:04] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:04,092 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:04] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:04,113 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:04] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:04,139 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:04] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:04,146 DBEngine.py[line:16] INFO DB INIT thread94
+2018-11-27 16:32:04,374 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:04] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:04,788 DBEngine.py[line:16] INFO DB INIT thread95
+2018-11-27 16:32:05,072 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:05] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:05,081 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:05] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:05,330 DBEngine.py[line:16] INFO DB INIT thread96
+2018-11-27 16:32:05,342 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:05] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:05,971 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:05] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:05,976 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:05] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:06,088 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:06] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:06,094 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:06] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:06,165 DBEngine.py[line:16] INFO DB INIT thread97
+2018-11-27 16:32:07,175 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:07] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:07,188 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:07] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:07,250 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:32:08,795 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:08] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:09,030 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:09] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:09,524 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:09] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:09,622 DBEngine.py[line:16] INFO DB INIT thread98
+2018-11-27 16:32:10,131 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:10] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:10,263 DBEngine.py[line:16] INFO DB INIT thread99
+2018-11-27 16:32:10,364 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:10] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:10,843 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:10] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:10,907 DBEngine.py[line:16] INFO DB INIT thread100
+2018-11-27 16:32:10,943 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:10] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:10,966 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:10] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:10,984 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:10] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:10,932 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:10] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:11,310 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:11] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:11,369 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:11] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:11,384 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:11] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:11,411 DBEngine.py[line:16] INFO DB INIT thread101
+2018-11-27 16:32:11,535 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:11] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:11,757 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:11] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:11,762 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:11] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:11,953 DBEngine.py[line:16] INFO DB INIT thread102
+2018-11-27 16:32:12,181 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:12] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:12,183 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:12] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:12,224 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:12] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:12,294 DBEngine.py[line:16] INFO DB INIT thread103
+2018-11-27 16:32:12,558 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:12] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:12,666 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:12] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:12,820 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:12] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:12,871 DBEngine.py[line:16] INFO DB INIT thread104
+2018-11-27 16:32:13,097 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:13] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:13,353 DBEngine.py[line:16] INFO DB INIT thread105
+2018-11-27 16:32:13,457 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:13] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:13,757 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:13] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:14,368 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:14] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:14,548 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:32:15,233 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:15] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:15,247 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:15] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:15,484 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:15] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:15,700 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:15] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:15,730 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:15] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:15,737 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:15] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:15,929 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:15] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:16,088 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:16] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:16,093 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:16] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:16,185 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:16] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:16,191 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:16] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:16,196 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:16] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:16,268 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:16] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:16,395 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:16] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:16,410 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:16] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:16,668 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:16] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:16,895 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:16] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:16,987 DBEngine.py[line:16] INFO DB INIT thread106
+2018-11-27 16:32:17,192 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:17] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:17,193 DBEngine.py[line:16] INFO DB INIT thread107
+2018-11-27 16:32:17,307 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:17] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:17,622 DBEngine.py[line:16] INFO DB INIT thread108
+2018-11-27 16:32:17,817 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:17] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:17,926 DBEngine.py[line:16] INFO DB INIT thread109
+2018-11-27 16:32:18,069 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:18] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:18,076 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:18] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:18,122 DBEngine.py[line:16] INFO DB INIT thread110
+2018-11-27 16:32:18,507 DBEngine.py[line:16] INFO DB INIT thread111
+2018-11-27 16:32:18,770 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:18] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:18,845 DBEngine.py[line:16] INFO DB INIT thread112
+2018-11-27 16:32:19,074 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:19] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:19,125 DBEngine.py[line:16] INFO DB INIT thread113
+2018-11-27 16:32:19,477 DBEngine.py[line:16] INFO DB INIT thread114
+2018-11-27 16:32:19,684 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=90 seed=bba4f1827c7ad53777f8c3e2cb1b3e716246b6c71fbdca3c78b1aed078ef613d hash=dfed488c9d4299403c69ada0870d3abdd4ed235804380206294fc94a49d401d3
+2018-11-27 16:32:19,763 DBEngine.py[line:16] INFO DB INIT thread115
+2018-11-27 16:32:19,880 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:19] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:20,841 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:20] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:20,922 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:32:21,100 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:21] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:21,107 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:21] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:21,638 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:21] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:21,820 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:21] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:22,835 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=94 seed=c7f91344261447729eda0b179b411f9c7db36d8a05cfe0566a2221eee0d44b29 hash=7d1ebd50350efdf5f6843356ae25b13ddd365ce2b8c766eb71f2027a40fab33d
+2018-11-27 16:32:23,247 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=96 seed=1fadd45e80f7dd80d7fc8883b04ce4287ef68906a92b0f42abe9061e5b97ee79 hash=dfd33f514007cf0fe12e84a23ef34d82c95ee9a1d542daee738c4b2983c9813b
+2018-11-27 16:32:23,762 DBEngine.py[line:16] INFO DB INIT thread116
+2018-11-27 16:32:23,955 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=91 seed=2721e3a7f70b836e97fce7d43aef20bf3cd5f01dac92b148b94a2672d8403c1e hash=048e7eb66b930b12f91673d506911052b8733bd27d4e2167bf27e8c7d76fab61
+2018-11-27 16:32:24,024 DBEngine.py[line:16] INFO DB INIT thread117
+2018-11-27 16:32:24,242 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=92 seed=797ab36c86fe9ffef4aff256b256ed3cd6e970a9bfd0baee3bd99b03a7640844 hash=bc9db2e78729fea41c41bcc1ec57248508e77445100121262a522090e4af2f94
+2018-11-27 16:32:24,323 DBEngine.py[line:16] INFO DB INIT thread118
+2018-11-27 16:32:24,599 DBEngine.py[line:16] INFO DB INIT thread119
+2018-11-27 16:32:24,961 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=93 seed=cf7ca016d7616e66c72cf262d754fdcf55698288eb75aa705cb86b9988cd68a6 hash=fccecfe1d671139e9cd4493ccf385df2c48f50ad60c97100850593e725ea0b7a
+2018-11-27 16:32:25,112 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:25] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:25,872 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:32:26,417 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=103 seed=26741a1208411a888c2d56299a43dbb545c9c89ccdc64f2bc264c10762229ca4 hash=5a957631fcc4b8cae8f57f0a72967866ddbfe501fc1d51b2a963fbda8576b1ee
+2018-11-27 16:32:26,843 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=100 seed=4a61f46cd2cbb6dca2d25a31332cdaef5b1003831cc92b323e866b12c781dc3f hash=6c842ef84623efa58a97126b34ae7236c3895229d320a9e0b2cfe3173b923f8d
+2018-11-27 16:32:27,010 DBEngine.py[line:16] INFO DB INIT thread103
+2018-11-27 16:32:27,130 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=104 seed=40db9dd2e25c92398378bb91f35f5d5e3192bb76e315feec8a5a0cacfdf36f79 hash=64217c45602bcde5416e7388e02d61e5419b2ad46c5aaa5287b689f4ccf7227d
+2018-11-27 16:32:27,388 DBEngine.py[line:16] INFO DB INIT thread104
+2018-11-27 16:32:27,456 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=95 seed=a72b0d77a592bd9f551ec5e0b28fe9a54cfdb48b4291872f9040500c578aa2bf hash=7340a228a707539022127152c797b27b0e0751311cca2a51d7f4dc99c4cd3b6a
+2018-11-27 16:32:27,626 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=99 seed=184024387e68c194043a31a085904ca6b816e56b4406325778aed2ef09501654 hash=f6c337a6f537286b2cc9f82ebef25271cc0de55ab1b386819355b9433f78c93a
+2018-11-27 16:32:27,798 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=97 seed=ffffc881a26c0aa01137fc1530b194e2e599ccf16178a85ffa0c635cea35617c hash=63a206ca4a0b3591727e15acd77d7e71eb5501cf7185b602adf988143db98b87
+2018-11-27 16:32:27,803 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:27] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:28,945 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=102 seed=0d45ba02c52ac91c7d5b1350457b53e3e838658523f9ab1e0fd1a5b2a124b3dd hash=dabe918947f727f57070714d379c48cd9ec3a87aaba15b82d1ed7e17a869bf60
+2018-11-27 16:32:29,010 DBEngine.py[line:16] INFO DB INIT thread120
+2018-11-27 16:32:29,295 DBEngine.py[line:16] INFO DB INIT thread121
+2018-11-27 16:32:29,415 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=98 seed=b36f34524d3c163403288a407e35185244d2869e638871d3e58b10c3e12c74c1 hash=23a3504a46ef29d725dd985e39b976d294087572edd71ad32afc84175c7f2aa8
+2018-11-27 16:32:29,633 DBEngine.py[line:16] INFO DB INIT thread122
+2018-11-27 16:32:29,878 DBEngine.py[line:16] INFO DB INIT thread123
+2018-11-27 16:32:30,219 DBEngine.py[line:16] INFO DB INIT thread124
+2018-11-27 16:32:30,399 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=107 seed=d4bc4ed708614dbc0cc60988d8fbcad9efca4ef0c71c28631ffff85930c3bdac hash=4a5d39ae2e4e4fb6dd0d2118848f211aeb6eeb5e5a6d544f448f788213c30536
+2018-11-27 16:32:30,936 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=110 seed=cbcb78d2334fca688db27255f8ca9d21d7bfd5e0852a910a0522a02ed5ecc37f hash=88fa91bfb08dc6f57bd74e97f208d6d4f07952b6eeff2a0a1aa05b0f9c63d31b
+2018-11-27 16:32:31,307 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:32:31,742 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=101 seed=ca148927b2acf91f54d6b58db81cf96e41befe74a79337950d87e83b594cb386 hash=a3ba95ddbda69f4041ec6e7a7e228539394e0f629ce56365273cca725cb5124d
+2018-11-27 16:32:32,351 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=113 seed=cefa75540b316e710d07e2bb0e9c30a0b39969ce2bbc6b5b4461800fbfd9ff96 hash=6bccf50d210c2f8d70bd479c8452d1e0df0432db8d9a2347c81580c860a069aa
+2018-11-27 16:32:32,507 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=105 seed=569afdaa0fb4398ad312338d8b89afed8283af7d090fd616be94b5d005c78bcf hash=21b4312e3f594899b3ec78a70a160333524ff1481551549f432772b7b9e47501
+2018-11-27 16:32:32,516 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=114 seed=9d099381a9462cfefe0eb7e97d4e599ea283150c758d8a0048fbc8125d3721ba hash=ad42bcbecab30761577d959c15ffdbb2997737f08ce70dbe642bb3e653ee8fc0
+2018-11-27 16:32:33,002 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=106 seed=80127822c7c594dafc87ac74f4a37f45d5a0b0f8a8f855e61df84c7728f492d5 hash=4398ef714b354c3343ce45ad96393344b9dae57fc8d629f65e95f5d38d626927
+2018-11-27 16:32:33,162 DBEngine.py[line:16] INFO DB INIT thread125
+2018-11-27 16:32:33,188 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=108 seed=d68e18103aa05080d3c6802ef5fc9aad274cb9997c6e6406355f042addeee495 hash=0d4902f40adcaec5cf8d7449c118334aa081091445125cbef6539cf77c15152d
+2018-11-27 16:32:33,213 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=109 seed=b775b92530ca4faa7478aa871bc9aa9951e736b273558ad592bd8513f1596769 hash=919fc3394183454eadd5350437d76231ae3fb27bb9002b7a408d681527eb400c
+2018-11-27 16:32:33,412 DBEngine.py[line:16] INFO DB INIT thread126
+2018-11-27 16:32:33,722 DBEngine.py[line:16] INFO DB INIT thread127
+2018-11-27 16:32:34,022 DBEngine.py[line:16] INFO DB INIT thread128
+2018-11-27 16:32:34,107 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=112 seed=359b01526d989d5e0be62dcfa99f799782991e2eb02a07bd7620caf74a9bb652 hash=4b65d3fc0c63c3a0c9f83dbcb243fb3062f60aac7ec9c71b7dc38b8d47c55b72
+2018-11-27 16:32:34,234 DBEngine.py[line:16] INFO DB INIT thread129
+2018-11-27 16:32:34,709 DBEngine.py[line:16] INFO DB INIT thread130
+2018-11-27 16:32:34,828 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=111 seed=08f94d0ead9ffaaf7beab43dbf7d755c2cfdc6fa3f9832131900640bbe24b608 hash=2f518bac2326bcf8ef8f6ff78144af40717e74f60193bfe4b9543d9f4bd14ebd
+2018-11-27 16:32:34,979 DBEngine.py[line:16] INFO DB INIT thread131
+2018-11-27 16:32:35,220 DBEngine.py[line:16] INFO DB INIT thread132
+2018-11-27 16:32:35,283 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=115 seed=dc493d410f659b6112d18c948d25fd331788dc123d06b4b976ef51f6a79e1403 hash=61fc457914f3f622082b5a7dc01cb6e54f05eba11a1419c8f0ae3f2df1e023c2
+2018-11-27 16:32:35,290 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:32:35] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:32:35,417 DBEngine.py[line:16] INFO DB INIT thread133
+2018-11-27 16:32:36,578 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:32:36,673 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=117 seed=405aa9b8e5d905123c4703b2452afdbe7c8ca5573f20139d68e23279bca2f5b3 hash=d4f5e05b604f3e1212ef223c770fba0c7dc90c36c7d56039a4b195d6c05602b0
+2018-11-27 16:32:36,951 DBEngine.py[line:16] INFO DB INIT thread117
+2018-11-27 16:32:38,483 DBEngine.py[line:16] INFO DB INIT thread134
+2018-11-27 16:32:38,699 DBEngine.py[line:16] INFO DB INIT thread135
+2018-11-27 16:32:39,083 DBEngine.py[line:16] INFO DB INIT thread136
+2018-11-27 16:32:39,149 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=118 seed=dbe472b45f1dfc13f3ca6a47508530b42e8b97e297b7a0f9b266c1b07c645ec8 hash=2fff2b94dad348c40eccfd62abb7c0d055ab34a333c53aeacebb2ddf4b54bca5
+2018-11-27 16:32:39,167 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=116 seed=7f26b125c79b177aa80c4dc5f497068bd97eeacc874acae63b7c51211a9bf130 hash=f357a180a142b79b0da0015e84587e2f24ce3208bb849be40b876224140af7dc
+2018-11-27 16:32:39,275 DBEngine.py[line:16] INFO DB INIT thread137
+2018-11-27 16:32:39,511 DBEngine.py[line:16] INFO DB INIT thread138
+2018-11-27 16:32:39,751 DBEngine.py[line:16] INFO DB INIT thread139
+2018-11-27 16:32:40,051 DBEngine.py[line:16] INFO DB INIT thread140
+2018-11-27 16:32:40,125 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=119 seed=8cf26dfdd53e2324f4f65e569653c7b5dfdcce487163d67e6733fc77dc6ba2cd hash=817bdb1ac715d237c02044613a95c38ca23be4f24ad9f07ffe7f848f34cb2829
+2018-11-27 16:32:40,315 DBEngine.py[line:16] INFO DB INIT thread141
+2018-11-27 16:32:40,608 DBEngine.py[line:16] INFO DB INIT thread142
+2018-11-27 16:32:40,720 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=120 seed=fc7b60764e305bdf5d4efec1bc859da6dfa35583565f10c288e3e0f524b811d2 hash=1a37bd0acae7fd027d92298634bef646b4d0f01740cf26bb102dad7e5ec4dac6
+2018-11-27 16:32:40,891 DBEngine.py[line:16] INFO DB INIT thread143
+2018-11-27 16:32:41,243 DBEngine.py[line:16] INFO DB INIT thread144
+2018-11-27 16:32:41,529 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=121 seed=90a1deac4f38fc159d03aa2b22b89f5eba5912cd30dcbb7978dc79088c06531b hash=1e906fbbacb73f729fa136f0f15f5fb18ae7aa0cbd190c36330d763e59700a1f
+2018-11-27 16:32:41,542 DBEngine.py[line:16] INFO DB INIT thread103
+2018-11-27 16:32:41,618 DBEngine.py[line:16] INFO DB INIT thread145
+2018-11-27 16:32:41,879 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=122 seed=7e78cbf437e3dc36c73e7cd5e99ff0ccc6b06e338c95cb0f89c9aba6523b3192 hash=9976369db27165fc9018602f02b9f7a1b6210a442560fb7e7d20a5944f8ba1e1
+2018-11-27 16:32:41,883 DBEngine.py[line:16] INFO DB INIT thread104
+2018-11-27 16:32:42,123 DBEngine.py[line:16] INFO DB INIT thread146
+2018-11-27 16:32:42,358 DBEngine.py[line:16] INFO DB INIT thread147
+2018-11-27 16:32:45,595 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=123 seed=dbf0d1fb4a029526aabee3c900377e493dd48f1addf31446b999d2d762977536 hash=bd650377342a6f3269d4f3b3529f13369a23a1b30da4fe73b89a40d3b6f56ee6
+2018-11-27 16:32:45,714 DBEngine.py[line:16] INFO DB INIT thread148
+2018-11-27 16:32:45,749 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=126 seed=10ba0427dbd1065c101568a02a497edbade03570e9b6f72e6bb73180f5a805b4 hash=032246cb56a3c3e82263eeeb24db504579e6e105844b54e278319e21464cac8b
+2018-11-27 16:32:45,808 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=125 seed=54f1679afaeb545c84d2b03f397cbf4654519ee0739477ac017722514f5d835e hash=d2b106aa89c784b8ba2ef953d3cad9e75a81ad78131b04e7f64acef099f8259b
+2018-11-27 16:32:45,995 DBEngine.py[line:16] INFO DB INIT thread149
+2018-11-27 16:32:46,142 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=127 seed=5670f11c9af1f33c0f0a6269aec18a18a48fc4b2788e36b6ec6cda663246564f hash=714c03a61c7907d6e0583d543535ffae0320001d4bf008b053456bc77ab942a1
+2018-11-27 16:32:46,331 DBEngine.py[line:16] INFO DB INIT thread150
+2018-11-27 16:32:46,543 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=129 seed=1dedd78b96c98f61cc89f8e6ec0feccf45705c2e4d28160236ebdc4c465e5bda hash=ad449f4dba62eb9f4a175eccef352ed9a7728cc2e251c86a2bb043a42008ccb6
+2018-11-27 16:32:46,717 DBEngine.py[line:16] INFO DB INIT thread151
+2018-11-27 16:32:47,011 DBEngine.py[line:16] INFO DB INIT thread152
+2018-11-27 16:32:47,290 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=132 seed=5eec79d2c476b7daf5f8d06b7b8c4f4f2133e12b089e93e3d47148df778b0ff6 hash=e17de1f57ad44281e32a775896f7ba565d71ca151a120bb08444df2e785833f3
+2018-11-27 16:32:47,333 DBEngine.py[line:16] INFO DB INIT thread153
+2018-11-27 16:32:47,589 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=124 seed=6cbf1eaeb00e5a42b84a2c5bdfc1a898deae21c4acb106d8c5716defa8700f86 hash=e1a26374b975b0246350fab7c7e2aa0288d6fe43500dc0e6d708c335046f63d6
+2018-11-27 16:32:47,715 DBEngine.py[line:16] INFO DB INIT thread154
+2018-11-27 16:32:48,025 DBEngine.py[line:16] INFO DB INIT thread155
+2018-11-27 16:32:48,153 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=131 seed=29ba71e70907f4541c1b15984cfbe2eea238da46a9f00e56ad619d3efeb58d50 hash=ec251dca734986a0ff4ce6f47d6812a49fb269e234278d7875205184a1e30106
+2018-11-27 16:32:48,369 DBEngine.py[line:16] INFO DB INIT thread156
+2018-11-27 16:32:48,649 DBEngine.py[line:16] INFO DB INIT thread157
+2018-11-27 16:32:49,022 DBEngine.py[line:16] INFO DB INIT thread158
+2018-11-27 16:32:49,084 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=128 seed=45b6002d5401f591b07a6b1e1ae0ce3f6e79e2b600b7fe5e91ad6b12666f001d hash=fbc8a8850817396e13b08c0deeb9a7b6fc3e5dc26e5fc5d36286319781d0d17c
+2018-11-27 16:32:50,031 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=130 seed=42cdb452bdbe36d6a5ada3f8e9a3c3c10dfac8efc85f966fe7ed71fa96feedbf hash=67d3a94060e07f5ee6ef91f23f7c1ad93a23ec3339001c18ea63829d9a217e0c
+2018-11-27 16:32:50,194 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:32:50,426 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=133 seed=9b68e1b7c6efd841d3f33d96b87b4dd851a53e65ac1018881898e8b1fc199195 hash=c202ca13df2bfa68f70f9b688d14e9f2707f28e8a46bff6d069976e55b8cecbb
+2018-11-27 16:32:51,319 DBEngine.py[line:16] INFO DB INIT thread117
+2018-11-27 16:32:52,127 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=136 seed=7ebdc3cd8c6a1129c8f915c453a56e85a88eed90c92afd47d8536fd71e2dedd2 hash=89c8f46bf250b4dc8633fd498562d9ea30c22e4076bef09a13b85377214d1e40
+2018-11-27 16:32:52,466 DBEngine.py[line:16] INFO DB INIT thread158
+2018-11-27 16:32:52,736 DBEngine.py[line:16] INFO DB INIT thread159
+2018-11-27 16:32:53,069 DBEngine.py[line:16] INFO DB INIT thread161
+2018-11-27 16:32:53,299 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=141 seed=1de6c05098ca47719c890ad2fe8071f500f04771c077c90516caa90154e055d0 hash=bd07dbbe9453bd52abb70ab4f8b6af20de62dc1b97a07357e0169d05c72771c3
+2018-11-27 16:32:53,348 DBEngine.py[line:16] INFO DB INIT thread162
+2018-11-27 16:32:53,473 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=142 seed=fe9a3fc3fa56abb6b49b1c59fdadeaf43cd1e8b6fb07ce70dc75e93e868b56b3 hash=089c91de40d2df0a33108649555f3485a567a29849bdd60f9392a7c6ec2b04a0
+2018-11-27 16:32:53,503 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=134 seed=42a4f06bddf052d4be29e7a2579ef48603c633e75a56a191b6b6c8d0a28ee508 hash=e14a8ddabb13c41a5c90237e8d83c7f6db75e263f776837fd5ff8adf7eda3942
+2018-11-27 16:32:53,579 DBEngine.py[line:16] INFO DB INIT thread163
+2018-11-27 16:32:53,807 DBEngine.py[line:16] INFO DB INIT thread164
+2018-11-27 16:32:53,956 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=137 seed=15b5efce5398a7e7cd3150cec5e2b20a189f1091dd4fc698b9369e91e0eb9a81 hash=845ea4f89ce00fde668049bb0f4e9a3eb16243a9feb1ed18007806b8f1883a8e
+2018-11-27 16:32:53,968 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=135 seed=6741a9176ab5546d017f82b5788c98c377a9b354de232eead669fe2b3179abc8 hash=c377cbeda2904fdd06e1842668a4710665510892c6f861dc1e3522b9a360d7ba
+2018-11-27 16:32:54,068 DBEngine.py[line:16] INFO DB INIT thread165
+2018-11-27 16:32:54,242 DBEngine.py[line:16] INFO DB INIT thread166
+2018-11-27 16:32:54,475 DBEngine.py[line:16] INFO DB INIT thread167
+2018-11-27 16:32:54,538 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=138 seed=a03fb6ff766950ff675e193cd2430d74a9d88fd6953401a0fa93902768487c40 hash=5df2e495ef35ed0fbb0d426b0f4c18a5a6f2f93e411652a3515c180a682f061f
+2018-11-27 16:32:54,603 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=144 seed=52a2003b9d70d41187428a232e53e5daf16c1a235fe68939db6afc5b33579559 hash=c93e7485103e62714045666a8226b1fe32d8cf0eab8ac0db06234528f5629544
+2018-11-27 16:32:54,751 DBEngine.py[line:16] INFO DB INIT thread168
+2018-11-27 16:32:54,990 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=139 seed=54f8e14633bcc9c186f787552a196746df589ed667cb490b84d66c8e425ede5d hash=595bb700c22ca78dccf6c55fe761432941171fe53c536de6573d8d8cd026df05
+2018-11-27 16:32:55,082 DBEngine.py[line:16] INFO DB INIT thread169
+2018-11-27 16:32:55,419 DBEngine.py[line:16] INFO DB INIT thread170
+2018-11-27 16:32:55,441 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=140 seed=c28a21ca469e65a48f9f22a3c4bb544f4910c692ac7e82eb55deeab594149c3c hash=c94c718ebceeb9bb6dbe22eaa126458c3b1d42413b904de79acb4e10c15f393d
+2018-11-27 16:32:55,678 DBEngine.py[line:16] INFO DB INIT thread171
+2018-11-27 16:32:55,987 DBEngine.py[line:16] INFO DB INIT thread172
+2018-11-27 16:32:56,199 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=143 seed=2f5a96e9992a3aca831b0636a0d539a2964ffae7997ac45ace9ebb97049059bd hash=69e8941dabff87ad500e28fe1ba4b615a4f4e9f14e01f94a7999f5f749005e74
+2018-11-27 16:32:56,324 DBEngine.py[line:16] INFO DB INIT thread173
+2018-11-27 16:32:56,652 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=146 seed=4a1ad39101b2cbf28a0718bdc49c29fd6a36e673b5aa368a0cf02e4139ea93a1 hash=b689fc8cc736a1f1f73aba13fae2a51c2c49be477d26428f43450456f8788136
+2018-11-27 16:32:56,698 DBEngine.py[line:16] INFO DB INIT thread174
+2018-11-27 16:32:56,910 DBEngine.py[line:16] INFO DB INIT thread175
+2018-11-27 16:32:57,150 DBEngine.py[line:16] INFO DB INIT thread176
+2018-11-27 16:32:57,523 DBEngine.py[line:16] INFO DB INIT thread177
+2018-11-27 16:32:57,631 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=147 seed=4c37901c4835f7b98fc2aeb7c1d8255579a4a49375ea8741d6c8e8c63739fff6 hash=51209b0a794682cec193b75907561c394c421d0cd9aebc285fbe63c6137c8721
+2018-11-27 16:32:57,781 DBEngine.py[line:16] INFO DB INIT thread178
+2018-11-27 16:32:58,183 DBEngine.py[line:16] INFO DB INIT thread179
+2018-11-27 16:32:58,470 DBEngine.py[line:16] INFO DB INIT thread180
+2018-11-27 16:32:58,593 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=152 seed=6839949423978a2407a44d75238384aa0f2c1ba4c5a45c1316569b0e25d3f147 hash=bbeeefd63f033d6b114098f174cc4972839b4cca538c5295489c9300479b4816
+2018-11-27 16:32:58,834 DBEngine.py[line:16] INFO DB INIT thread181
+2018-11-27 16:32:58,880 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=145 seed=18b0448902df12b8686f427d5480bd4c2f4432e0836af9dbc2419325857d4d03 hash=8ab825e4c5aaf7c84b46767d14a3c061b48e9279a61d30bd21c471dff49bf832
+2018-11-27 16:32:58,903 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=150 seed=c99265657378e1be3cd68ee91be92af0530a74a88d551fdd684b80d8f25670f2 hash=0d16a6ea7e5e339b2d5703a43210f65c4558469bcd62f51a5e031db8d712a408
+2018-11-27 16:32:59,175 DBEngine.py[line:16] INFO DB INIT thread182
+2018-11-27 16:32:59,573 DBEngine.py[line:16] INFO DB INIT thread183
+2018-11-27 16:32:59,857 DBEngine.py[line:16] INFO DB INIT thread184
+2018-11-27 16:33:00,836 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=148 seed=91504960d843922d0f86f2411f55ae2e6ff6f3b216e96533d50cb94de60eb8dc hash=7ea5134aa45045819ae1cf0c3425336ade9c81c4a078e6037f8a519a92fc8709
+2018-11-27 16:33:01,072 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:01,162 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=157 seed=76bde0673b226b4ae1c2c2efdecfba168044fa5afebb61f5b56388620c2632aa hash=8b038f46240b37ef21055c5d1772fb11b9a38dc7f4b2a435a602878387385992
+2018-11-27 16:33:01,819 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=149 seed=fd99ba36eec94be82fb462f22237d5fab75788555587c54b1db37de1818d6b44 hash=978223f179e4a5232dfabaa52daa9fec06a908ee663f15aaffb9a22d2290bb13
+2018-11-27 16:33:02,128 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=151 seed=88eb4b40d20c89eb9a482b2e6f05d34d184bb858710b44206875f955266686cd hash=a8b5ee9e1029d1fd263477398c8fb8d148435926f6ddf160e3cffd851272171a
+2018-11-27 16:33:02,174 DBEngine.py[line:16] INFO DB INIT thread157
+2018-11-27 16:33:03,466 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=154 seed=c77d0a9e94f364e151ade79ba23e85f0e0631473d7a53150abb9a9027faa64eb hash=bdd98bdc3e6517de3ca6b7915f7bd9bbdde12d0bda24e672be65d44808355844
+2018-11-27 16:33:03,832 DBEngine.py[line:16] INFO DB INIT thread158
+2018-11-27 16:33:03,867 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=155 seed=866787fdb072428f4b637e7cb0f85acc443124fd5a7fd3e78720bb352e61da94 hash=2adf81eb995f449f47fb8cfb730ffc8d65964960f89f941a56c4bbcba8bb40e0
+2018-11-27 16:33:04,198 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=153 seed=28c9a098defa96e78a3a4e44d9f2ce6528280ff2575340fba3d2c69a292b09b5 hash=d61641e230175f1a16b7c26ff49dc4288da696a5df1f354af44b236743b47644
+2018-11-27 16:33:04,604 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:33:04] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:33:04,774 DBEngine.py[line:16] INFO DB INIT thread185
+2018-11-27 16:33:05,055 DBEngine.py[line:16] INFO DB INIT thread186
+2018-11-27 16:33:05,350 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=161 seed=5344c67595df1cb5c54672fdc025a931906b9d4d4c27315b41d34479cdeb3497 hash=e01408360626ef31608ef510b1ae3c3b185c88a842a7659c8c8acf2fed6afa2b
+2018-11-27 16:33:05,510 DBEngine.py[line:16] INFO DB INIT thread187
+2018-11-27 16:33:05,774 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=158 seed=9b2780cc53afc9839705a280b0c20ad6232cb0bd1b845e8723eee9eebc5fb812 hash=04c92d7e1259d1e0bf684d3bfbe4b13eda6abca5cd3343470bc029fb4fd7901e
+2018-11-27 16:33:06,423 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=164 seed=654fbfd70fca59ade6be13d6ed156ba6ae62a288f0dc49bcdcde95697634ed10 hash=b71e41ce5bf782e36e8d7e4d3750e96d8de267d6c9111efb7c158d9580742da9
+2018-11-27 16:33:06,461 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=156 seed=660b81a47882a08ee51ee089866ed4e2f0985a4044399f08e127e06cb4d4ec02 hash=a14bca50070fdd2aef1513abb4debe364c6f7289a5d957b70dd601653804ef71
+2018-11-27 16:33:06,606 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:06,624 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=165 seed=c4beeb02dbc80a201161d7932934c2af39a1a99cddf07dee4d2290d9e6fe7184 hash=7d3454b52a8e5b19e2c20d7ba3804ff2b797144e7abb350b07f8a88ce7323e92
+2018-11-27 16:33:07,330 DBEngine.py[line:16] INFO DB INIT thread165
+2018-11-27 16:33:08,011 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=169 seed=bf6027d4c5a7ae2510fcd0cc9ca5f8d3d22be036590be51b8d2d6577d5f678e8 hash=029951cdc3c44a48ceed5ada35f907b5b48a0562854040109bcc374c2ffff53b
+2018-11-27 16:33:08,747 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=167 seed=e20e226b00438d3dc538f3fb3c29ee0930ec1c91c2274bca83d3ca6bafac2d61 hash=9dcec87f43860cc8b0f7128b6e5d4e5fab65a0b1ce86436b9f2bdae76df8bd94
+2018-11-27 16:33:08,998 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=173 seed=d8fe5b60a1649ba4da7553c88edc1f6bb97ee8016acfc9a398065ef83e68cb3e hash=fa9e6ede6ebffa789a12c5cc9b0d7cc75055051cbe29b5c35d7ba97a4d4e48e0
+2018-11-27 16:33:09,774 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=163 seed=21b81800711ab0d86bf9c162dc049ec7ca75638f8ba1e81147bf1b8140bfbf03 hash=9dd4ece6cbeaa77340717ebcf9f0e6254dfe6101e425aaf843140d116b046370
+2018-11-27 16:33:09,866 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=162 seed=b1a724e73a554457c4ef9c8b6703563bfb424707a5012e4be999b4e06dfcc68f hash=081f15ca5af4b1fecaae7bfecf7f5322be0d46b7aafa1a833df3889f58061644
+2018-11-27 16:33:09,921 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=166 seed=38aae6d3e08541c0e0bf3b32faeb89798844deea2c1a1a66777d928935041d6b hash=dc9636ccc4f703988b0f8ea001e1f59dbb0fb3a642dcdc685a804dab2413928f
+2018-11-27 16:33:09,979 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=174 seed=2146adad7674b29d6e177a5f345f7951171ed068272ce0caec8b79b4456de9e5 hash=8318fcd1df681bfa6d63a3f3e9adffab6c77e7ae4b592128261b737e23090448
+2018-11-27 16:33:10,038 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:10,711 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=159 seed=acc6736d989e50b03372f74471d783a4ccc120a2be8b2073e64055f2c7c4619a hash=bddb23b34bb35fae2303a00154cd60754071e7e5cb7287d5ddda4409bd83c6b1
+2018-11-27 16:33:10,718 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=177 seed=363c6bd824a2cbb93a34056b5311982c352f6d7cf9c07c3435558aa5b7935b38 hash=e6a13743c72f63724c5981e370725d3e9454fba7a1ada74c7e8d3f72ce6c33e3
+2018-11-27 16:33:10,723 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=170 seed=fec11dfbe74ff1c887abd267c5950d4b1552ea6bba35b6ecaddf0b8dc290a4ef hash=4c242bd8fb5800349552a2908b78ddf2dfff5cac6676839745ed9f3fc598a325
+2018-11-27 16:33:10,811 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=172 seed=dfc1313d171f4d2c0c658fb9e99b5467691eaf282287e808760d8da044addbe4 hash=52eb2c684a9b7c037a895ae4200d9f4d841be4635b20e1e1fb85dd893f95aed4
+2018-11-27 16:33:10,830 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=176 seed=7f72a58f79a9673295aa89c8dd81143aa0e78a6678938309aca2867b5899e4a3 hash=475791602d35aa47e34666dd4b2355606d17cc152ae189f3bcd4bef85cf955d8
+2018-11-27 16:33:10,956 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=171 seed=096f508af6c810b0780a5bfab4fc371bdabe1ce09b0c09742f0d1e481e11a3b1 hash=4d84e1280db8f41322baba4ff02ce79c6c091c108e5b21fb23aaf000bc122b2b
+2018-11-27 16:33:11,563 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=183 seed=0276002d3cbb7f7b36d8d0f3fd77d2ead0589a6c03a2ad0afd11485f638af416 hash=97e12480f4ec6bd78cae542f6c8fa02df2261f2b64c42b5768213739d9c7668f
+2018-11-27 16:33:11,661 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=178 seed=d4e5143425b02cec2ffed7121020117a3964f64679be8e424a77abe1c8efae22 hash=017f92f6e5867958ff7df682c6eccb23b4516a7022e0959385f5916b7600b6af
+2018-11-27 16:33:11,830 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=175 seed=767ad1ad847005a0e2d488e13cf7790515441d84f51a7fc1045951061c0cc9d8 hash=5159da04139aa9bae4d7d894d67c993b7e1483abeb873bcb70e427648fda2d37
+2018-11-27 16:33:11,859 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:33:11] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:33:11,955 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=168 seed=0c72efb388d23fdd64fc204b34917d1953ba7024891420263bae4940a6e17b22 hash=aff5550d5d4d30a1000aa548eec29e492937f16c1d09c5a8de61eb22dc692daa
+2018-11-27 16:33:12,014 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:12,060 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=179 seed=9b70981a78c475a566797b2fa22a8b7666f8773ee571c8465edd49b2978a4bc9 hash=063f4de5b03a9654f554e1d40aacc2471e650591bc6c66403d2d85b91c51ff96
+2018-11-27 16:33:12,123 DBEngine.py[line:16] INFO DB INIT thread178
+2018-11-27 16:33:12,183 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=181 seed=a52b3615159c65183ad7932cd7d5ca3ac8bb687315e44a636645e60876056f30 hash=b6db0ff83661207c2211b3b4e459d84669396c703c8c346f1fe8aa5d8bfd42f4
+2018-11-27 16:33:12,200 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=180 seed=1e6c6616076b40cf116f3b108f03fd02b5e18e39938b8092dec77b4dce545ca8 hash=7d2222a243a6590bc1a6ddc08d2f8bbda17d482e5b6ea7802e8a06f35855619d
+2018-11-27 16:33:12,215 DBEngine.py[line:16] INFO DB INIT thread179
+2018-11-27 16:33:12,315 DBEngine.py[line:16] INFO DB INIT thread180
+2018-11-27 16:33:12,405 DBEngine.py[line:16] INFO DB INIT thread181
+2018-11-27 16:33:12,491 DBEngine.py[line:16] INFO DB INIT thread157
+2018-11-27 16:33:12,868 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=182 seed=33932626fd35e30cd649e1250c906b43989544fd8aea428585e92cc4a439039a hash=c0200bdf8346a89daed5ec0bbd2be14763613ba83c8dc13693865544bf4bd193
+2018-11-27 16:33:12,948 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=184 seed=27afb4d5cc75465f83b4680a7a511761f08d643bae82cd145048e3fcc349835b hash=f42463044c348c8c4c47c6f8e26bb2e938f49bcea2fcf7a82ea46a6a438df2bc
+2018-11-27 16:33:13,705 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:13,932 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=186 seed=2ea5b2d1c44424be69a51dbb9b612c65cfa89a6e72f05f39474a9952c28f3aab hash=fdd47e732879a0af8676cf53f87ffa9e07904ad9e20a1b8f44289f1eb175fa1e
+2018-11-27 16:33:14,023 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=185 seed=e147fcb2a677453d826f9db8b0ee85bf5228b9f37941cb8bfc1f969a9ace81d6 hash=2f504622fd8c5e48182ff322f78647051d9b4df124e54d2321099c76780663c4
+2018-11-27 16:33:14,141 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=187 seed=bb4fdc865f4e1d0aca09ff53797f23bb94cc16ffe41c0a591576ad92404bdba6 hash=e1f051442d077629c7cf66af5974e571f68e40bd30a05baf190f3cc3ffb5bdb8
+2018-11-27 16:33:14,371 DBEngine.py[line:16] INFO DB INIT thread165
+2018-11-27 16:33:14,900 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:15,042 DBEngine.py[line:16] INFO DB INIT thread188
+2018-11-27 16:33:16,132 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:16,147 DBEngine.py[line:16] INFO DB INIT thread179
+2018-11-27 16:33:16,289 DBEngine.py[line:16] INFO DB INIT thread178
+2018-11-27 16:33:16,683 DBEngine.py[line:16] INFO DB INIT thread181
+2018-11-27 16:33:16,804 DBEngine.py[line:16] INFO DB INIT thread180
+2018-11-27 16:33:17,316 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:17,689 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=188 seed=8ab2a843d77ad10d05e515a27a1adee1b2d8bc8e79270ecfd806d02b3c79bef0 hash=748433ffb60b7b3083057b1b99c994dcdc93df3338ab8c38db688956f7151053
+2018-11-27 16:33:18,443 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:19,533 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:20,626 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:21,727 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:22,820 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:23,911 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:25,006 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:26,115 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:27,207 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:28,300 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:29,394 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:30,487 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:31,583 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:32,715 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:33,808 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:34,931 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:36,104 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:37,220 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:38,456 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:39,562 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:40,656 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:41,747 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:42,840 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:43,934 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:45,110 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:46,204 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:47,296 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:48,390 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:49,481 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:50,572 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:51,665 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:52,765 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:53,856 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:54,954 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:56,048 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:57,143 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:58,238 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:33:59,336 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:00,427 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:01,520 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:02,617 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:03,711 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:04,802 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:05,898 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:06,994 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:08,093 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:09,199 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:10,299 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:11,396 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:12,488 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:13,582 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:14,813 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:15,978 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:17,073 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:18,168 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:19,262 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:20,355 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:21,457 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:22,549 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:23,648 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:24,745 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:25,846 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:26,939 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:28,038 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:29,147 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:30,269 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:31,401 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:32,533 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:33,638 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:34,730 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:35,862 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:36,960 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:38,057 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:39,160 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:40,266 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:41,361 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:42,455 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:43,555 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:44,650 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:45,744 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:46,883 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:48,018 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:49,112 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:50,232 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:51,329 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:52,429 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:53,521 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:54,613 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:55,710 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:56,802 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:57,916 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:34:59,010 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:00,118 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:01,249 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:02,365 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:03,463 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:04,561 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:05,656 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:06,750 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:07,841 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:08,935 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:10,068 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:11,160 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:12,251 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:13,342 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:14,448 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:15,541 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:16,642 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:17,742 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:18,847 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:19,956 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:21,049 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:22,142 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:23,241 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:24,338 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:25,460 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:26,585 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:27,688 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:28,798 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:29,889 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:30,985 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:32,082 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:33,176 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:34,276 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:35,373 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:36,467 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:37,560 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:38,657 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:39,760 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:40,856 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:42,003 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:43,100 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:44,195 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:45,290 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:46,385 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:47,487 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:48,586 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:49,699 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:50,800 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:51,895 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:53,040 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:54,140 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:55,232 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:56,332 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:57,449 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:58,548 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:35:59,718 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:00,584 _internal.py[line:88] INFO 127.0.0.1 - - [27/Nov/2018 16:36:00] "GET /api/dice/get_seed HTTP/1.0" 200 -
+2018-11-27 16:36:00,817 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:01,913 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:01,935 DBEngine.py[line:16] INFO DB INIT thread189
+2018-11-27 16:36:03,062 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:03,564 dice_service.py[line:112] INFO 〓DICE〓 开奖完成 gameid=189 seed=ccb2b44a3eb5e7b9cd2ad066df224148dfe9cced1fae4f5ac4d4d19fc910fe54 hash=8cb8b70647f41bcc773a3d3a8e1c18f538eb0e438497ee445d0fbccb2ddccd7b
+2018-11-27 16:36:04,254 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:05,349 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:06,529 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:07,627 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:08,728 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:09,819 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:10,913 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:12,072 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:13,164 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:14,267 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:15,363 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:16,461 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:17,572 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:18,665 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:19,765 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:20,856 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:21,958 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:23,102 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:24,265 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:25,375 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:26,474 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:27,602 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:28,696 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:29,800 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:30,893 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:31,988 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:33,128 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:34,221 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:35,313 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:36,407 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:37,501 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:38,596 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:39,687 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:40,781 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:41,886 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:42,979 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:44,149 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:45,241 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:46,334 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:47,428 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:48,526 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:49,620 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:50,756 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:51,848 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:52,944 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:54,036 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:55,170 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:56,261 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:57,357 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:58,450 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:36:59,640 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:00,751 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:01,841 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:02,945 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:04,042 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:05,194 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:06,290 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:07,396 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:08,486 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:09,586 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:10,732 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:11,827 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:12,924 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:14,019 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:15,114 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:16,223 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:17,325 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:18,417 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:19,535 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:20,698 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:21,801 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:22,932 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:24,031 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:25,129 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:26,247 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:27,345 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:28,449 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:29,603 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:30,700 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:31,918 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:33,011 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:34,104 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:35,198 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:36,394 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:37,486 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:38,586 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:39,680 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:40,774 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:41,865 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:42,958 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:44,057 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:45,149 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:46,295 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:47,389 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:48,496 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:49,591 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:50,683 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:51,783 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:52,878 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:53,977 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:55,078 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:56,169 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:57,318 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:58,450 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:37:59,542 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:00,641 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:01,738 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:02,839 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:03,934 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:05,030 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:06,139 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:07,264 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:08,363 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:09,463 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:10,554 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:11,650 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:12,750 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:13,847 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:14,960 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:16,069 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:17,186 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:18,284 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:19,375 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:20,466 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:21,566 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:22,666 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:23,759 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:24,854 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:25,947 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:27,043 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:28,144 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:29,235 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:30,392 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:31,483 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:32,575 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:33,697 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:34,789 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:35,894 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:36,994 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:38,088 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:39,197 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:40,305 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:41,431 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:42,533 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:43,630 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:44,774 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:45,864 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:46,958 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:48,053 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:49,151 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:50,250 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:51,347 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:52,457 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:53,561 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:54,656 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:55,751 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:56,892 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:58,028 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:38:59,126 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:00,217 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:01,313 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:02,405 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:03,511 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:04,601 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:05,694 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:06,793 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:07,890 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:09,029 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:10,134 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:11,238 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:12,334 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:13,491 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:14,587 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:15,688 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:16,791 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:17,892 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:18,987 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:20,080 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:21,173 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:22,277 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:23,372 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:24,516 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:25,613 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:26,706 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:27,800 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:28,893 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:29,987 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:31,085 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:32,177 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:33,269 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:34,362 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:35,461 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:36,578 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:37,672 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:38,766 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:39,863 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:40,990 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:42,094 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:43,191 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:44,285 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:45,381 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:46,477 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:47,579 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:48,672 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:49,768 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:50,863 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:51,963 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:53,071 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:54,165 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:55,272 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:56,385 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:57,477 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:58,613 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:39:59,705 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:00,802 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:01,909 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:03,016 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:04,132 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:05,258 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:06,354 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:07,447 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:08,563 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:09,665 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:10,759 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:11,861 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:12,957 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:14,051 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:15,154 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:16,257 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:17,351 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:18,445 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:19,539 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:20,649 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:21,741 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:22,835 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:23,932 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:25,030 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:26,124 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:27,236 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:28,384 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:29,505 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:30,670 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:31,767 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:32,861 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:33,956 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:35,052 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:36,147 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:37,245 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:38,338 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:39,434 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:40,529 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:41,690 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:42,784 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:43,878 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:44,972 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:46,065 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:47,168 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:48,320 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:49,433 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:50,525 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:51,623 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:52,792 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:53,899 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:55,024 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:56,153 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:57,251 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:58,361 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:40:59,459 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:00,550 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:01,647 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:02,750 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:03,847 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:04,948 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:06,040 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:07,139 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:08,247 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:09,347 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:10,477 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:11,582 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:12,676 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:13,785 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:14,880 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:15,973 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:17,066 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:18,165 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:19,261 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:20,366 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:21,465 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:22,576 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:23,700 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:24,802 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:25,895 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:27,000 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:28,091 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:29,190 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:30,284 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:31,378 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:32,473 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:33,566 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:34,664 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:35,821 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:36,923 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:38,027 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:39,119 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:40,213 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:41,317 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:42,424 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:43,597 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:44,695 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:45,854 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:46,952 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:48,068 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:49,187 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:50,300 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:51,403 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:52,500 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:53,593 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:54,692 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:55,785 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:56,898 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:57,999 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:41:59,093 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:00,181 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:01,268 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:02,362 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:03,528 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:04,619 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:05,716 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:06,807 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:07,896 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:08,989 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:10,082 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:11,183 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:12,271 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:13,359 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:14,454 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:15,543 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:16,653 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:17,747 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:18,909 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:20,012 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:21,102 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:22,198 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:23,294 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:24,390 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:25,479 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:26,574 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:27,671 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:28,768 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:29,937 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:31,032 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:32,118 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:33,212 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:34,308 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:35,475 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:36,585 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:37,678 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:38,767 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:39,859 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:40,964 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:42,066 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:43,160 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:44,255 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:45,349 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:46,442 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:47,532 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:48,707 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:49,825 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:50,980 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:52,087 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:53,190 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:54,285 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:55,378 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:56,474 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:57,565 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:58,659 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:42:59,753 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:00,860 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:02,009 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:03,100 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:04,197 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:05,291 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:06,390 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:07,485 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:08,599 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:09,693 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:10,785 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:11,881 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:13,029 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:14,123 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:15,217 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:16,310 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:17,447 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:18,543 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:19,642 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:20,736 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:21,830 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:22,925 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:24,050 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:25,149 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:26,249 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:27,369 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:28,483 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:29,586 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:30,683 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:31,778 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:32,872 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:33,972 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:35,076 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:36,183 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:37,278 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:38,386 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:39,482 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:40,581 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:41,696 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:42,870 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:43,980 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:45,105 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:46,291 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:47,383 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:48,489 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:49,590 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:50,687 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:51,799 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:52,894 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:53,991 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:55,180 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:56,288 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:57,380 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:58,497 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:43:59,594 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:00,689 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:01,788 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:02,887 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:03,981 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:05,076 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:06,177 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:07,274 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:08,371 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:09,466 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:10,571 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:11,665 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:12,768 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:13,861 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:14,958 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:16,065 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:17,180 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:18,275 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:19,383 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:20,472 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:21,566 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:22,679 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:23,802 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:24,930 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:26,024 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:27,120 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:28,209 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:29,303 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:30,394 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:31,509 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:32,601 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:33,700 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:34,804 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:35,924 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:37,048 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:38,139 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:39,232 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:40,331 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:41,420 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:42,541 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:43,714 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:44,805 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:45,905 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:47,001 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:48,092 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:49,397 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:50,491 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:51,583 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:52,675 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:53,770 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:54,863 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:55,953 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:57,048 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:58,154 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:44:59,280 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:00,379 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:01,488 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:02,579 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:03,674 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:04,774 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:05,864 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:06,957 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:08,048 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:09,151 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:10,288 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:11,378 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:12,477 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:13,575 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:14,681 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:15,778 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:16,886 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:17,983 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:19,079 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:20,174 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:21,314 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:22,406 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:23,503 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:24,600 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:25,692 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:26,784 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:27,883 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:28,979 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:30,088 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:31,217 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:32,343 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:33,433 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:34,531 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:35,627 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:36,724 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:37,823 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:38,913 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:40,004 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:41,099 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:42,214 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:43,306 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:44,406 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:45,500 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:46,589 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:47,696 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:48,790 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:49,883 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:50,974 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:52,076 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:53,177 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:54,272 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:55,400 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:56,496 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:57,594 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:58,698 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:45:59,799 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:00,895 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:01,986 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:03,075 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:04,172 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:05,270 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:06,470 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:07,562 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:08,682 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:09,779 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:10,876 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:11,987 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:13,106 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:14,201 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:15,293 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:16,442 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:17,551 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:18,645 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:19,739 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:20,846 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:21,944 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:23,065 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:24,157 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:25,248 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:26,342 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:27,466 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:28,582 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:29,683 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:30,796 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:31,887 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:32,979 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:34,070 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:35,163 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:36,253 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:37,349 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:38,492 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:39,584 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:40,675 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:41,768 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:42,860 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:43,952 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:45,042 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:46,173 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:47,266 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:48,360 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:49,514 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:50,604 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:51,696 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:52,786 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:53,882 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:54,975 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:56,072 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:57,162 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:58,257 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:46:59,349 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:00,440 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:01,550 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:02,667 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:03,758 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:04,851 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:05,959 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:07,050 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:08,143 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:09,237 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:10,329 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:11,423 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:12,580 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:13,670 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:14,767 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:15,876 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:16,965 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:18,060 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:19,164 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:20,290 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:21,496 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:22,617 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:23,707 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:24,799 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:25,896 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:26,990 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:28,083 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:29,176 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:30,269 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:31,360 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:32,461 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:33,686 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:34,781 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:35,881 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:36,981 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:38,070 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:39,160 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:40,252 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:41,347 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:42,451 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:43,550 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:44,649 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:45,737 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:46,832 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:47,923 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:49,015 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:50,107 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:51,195 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:52,289 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:53,377 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:54,472 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:55,566 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:56,678 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:57,775 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:58,873 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:47:59,970 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:01,062 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:02,150 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:03,245 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:04,334 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:05,423 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:06,520 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:07,607 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:08,704 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:09,794 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:10,890 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:11,981 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:13,072 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:14,162 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:15,272 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:16,363 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:17,461 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:18,561 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:19,667 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:20,765 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:21,863 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:22,949 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:24,051 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:25,140 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:26,227 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:27,316 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:28,406 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:29,495 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:30,634 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:31,760 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:32,859 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:33,955 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:35,054 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:36,165 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:37,266 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:38,357 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:39,459 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:40,625 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:41,714 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:42,801 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:43,893 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:45,004 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:46,117 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:47,213 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:48,308 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:49,411 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:50,513 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:51,615 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:52,716 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:53,814 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:54,910 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:56,010 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:57,099 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:58,203 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:48:59,301 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:00,403 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:01,566 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:02,658 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:03,749 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:04,839 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:05,935 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:07,036 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:08,156 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:09,253 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:10,350 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:11,464 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:12,563 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:13,652 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:14,767 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:15,862 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:16,959 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:18,057 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:19,147 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:20,250 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:21,346 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:22,442 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:23,533 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:24,628 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:25,769 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:26,886 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:27,978 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:29,081 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:30,171 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:31,273 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:32,365 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:33,456 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:34,545 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:35,655 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:36,751 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:37,912 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:39,013 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:40,105 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:41,192 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:42,283 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:43,373 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:44,470 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:45,560 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:46,655 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:47,750 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:48,842 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:49,945 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:51,039 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:52,132 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:53,221 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:54,318 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:55,419 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:56,514 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:57,611 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:58,704 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:49:59,800 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:00,966 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:02,069 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:03,159 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:04,283 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:05,455 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:06,551 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:07,648 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:08,744 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:09,841 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:10,985 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:12,084 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:13,171 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:14,266 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:15,356 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:16,452 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:17,545 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:18,638 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:19,732 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:20,823 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:21,919 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:23,014 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:24,106 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:25,203 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:26,304 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:27,391 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:28,486 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:29,581 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:30,679 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:31,774 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:32,865 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:33,965 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:35,068 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:36,155 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:37,257 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:38,361 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:39,467 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:40,580 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:41,714 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:42,857 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:43,948 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:45,054 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:46,151 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:47,241 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:48,335 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:49,435 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:50,533 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:51,629 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:52,718 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:53,814 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:54,909 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:56,006 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:57,093 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:58,241 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:50:59,337 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:00,438 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:01,533 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:02,625 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:03,729 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:04,819 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:05,907 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:07,002 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:08,151 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:09,259 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:10,352 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:11,445 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:12,539 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:13,638 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:14,730 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:15,825 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:16,934 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:18,164 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:19,258 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:20,348 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:21,522 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:22,620 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:23,725 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:24,818 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:25,911 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:27,004 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:28,160 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:29,256 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:30,349 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:31,446 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:32,544 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:33,655 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:34,754 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:35,854 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:36,946 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:38,101 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:39,196 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:40,284 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:41,377 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:42,483 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:43,576 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:44,690 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:45,874 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:46,971 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:48,064 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:49,202 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:50,302 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:51,411 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:52,508 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:53,613 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:54,704 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:55,795 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:56,893 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:57,987 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:51:59,080 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:00,232 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:01,324 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:02,419 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:03,515 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:04,609 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:05,701 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:06,794 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:07,897 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:08,991 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:10,083 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:11,247 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:12,342 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:13,433 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:14,539 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:15,632 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:16,724 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:17,817 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:18,907 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:19,997 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:21,085 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:22,179 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:23,277 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:24,368 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:25,467 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:26,560 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:27,648 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:28,754 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:29,860 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:30,955 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:32,047 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:33,137 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:34,229 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:35,335 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:36,439 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:37,563 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:38,654 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:39,750 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:40,846 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:41,963 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:43,054 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:44,148 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:45,245 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:46,335 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:47,431 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:48,533 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:49,622 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:50,716 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:51,809 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:52,911 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:54,003 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:55,107 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:56,200 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:57,360 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:58,457 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:52:59,552 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:00,643 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:01,737 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:02,836 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:03,936 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:05,066 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:06,162 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:07,251 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:08,385 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:09,493 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:10,604 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:11,698 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:12,814 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:13,910 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:15,004 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:16,100 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:17,195 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:18,292 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:19,409 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:20,502 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:21,599 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:22,692 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:23,786 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:24,879 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:25,981 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:27,073 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:28,166 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:29,258 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:30,352 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:31,455 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:32,600 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:33,705 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:34,804 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:35,898 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:37,000 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:38,108 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:39,218 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:40,315 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:41,452 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:42,544 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:43,704 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:44,793 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:45,882 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:46,969 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:48,062 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:49,177 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:50,274 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:51,364 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:52,480 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:53,594 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:54,684 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:55,776 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:56,879 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:57,987 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:53:59,076 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:00,185 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:01,277 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:02,376 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:03,504 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:04,606 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:05,698 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:06,789 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:07,878 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:09,014 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:10,112 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:11,204 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:12,290 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:13,384 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:14,533 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:15,638 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:16,745 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:17,837 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:18,944 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:20,039 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:21,134 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:22,229 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:23,321 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:24,415 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:25,556 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:26,644 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:27,730 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:28,823 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:29,922 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:31,054 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:32,142 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:33,236 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:34,328 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:35,423 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:36,613 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:37,728 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:38,817 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:39,912 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:41,003 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:42,095 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:43,187 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:44,278 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:45,377 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:46,472 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:47,607 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:48,697 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:49,790 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:50,890 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:51,988 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:53,082 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:54,191 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:55,282 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:56,373 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:57,549 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:58,648 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:54:59,746 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:00,840 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:01,931 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:03,028 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:04,121 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:05,212 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:06,306 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:07,396 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:08,492 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:09,598 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:10,696 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:11,789 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:12,886 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:13,976 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:15,068 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:16,163 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:17,256 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:18,360 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:19,454 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:20,543 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:21,687 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:22,780 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:23,872 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:24,970 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:26,074 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:27,165 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:28,335 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:29,433 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:30,529 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:31,621 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:32,716 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:33,818 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:34,920 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:36,023 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:37,117 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:38,208 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:39,302 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:40,396 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:41,490 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:42,603 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:43,746 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:44,849 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:45,959 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:47,061 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:48,153 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:49,245 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:50,349 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:51,444 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:52,536 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:53,633 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:54,723 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:55,812 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:56,905 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:58,007 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:55:59,105 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:56:00,202 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:56:01,296 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:56:02,387 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:56:03,484 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:56:04,623 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:56:05,777 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:56:06,944 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:56:08,036 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:56:09,134 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:56:10,227 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:56:11,326 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:56:12,426 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:56:13,544 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:56:14,666 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:56:15,801 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0
+2018-11-27 16:56:16,899 DBEngine.py[line:16] INFO DB INIT ThreadPoolExecutor-0_0

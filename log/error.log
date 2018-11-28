@@ -1,0 +1,367 @@
+2018-11-27 15:55:04,036 connector.py[line:70] ERROR 开始处理调用合约返回的异常:
+2018-11-27 15:55:04,069 dice_service.py[line:115] ERROR 〓DICE〓 异步开奖异常  gameid=89 =(sqlite3.OperationalError) no such table: sms [SQL: 'SELECT sms.id AS sms_id, sms.type AS sms_type, sms.mobile AS sms_mobile, sms.sms_text AS sms_sms_text, sms.created_at AS sms_created_at \nFROM sms \nWHERE sms.type = ? ORDER BY sms.created_at DESC\n LIMIT ? OFFSET ?'] [parameters: (10, 1, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-11-27 16:29:55,656 pool.py[line:718] ERROR Exception during reset or similar
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 377, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+TypeError: getresponse() got an unexpected keyword argument 'buffering'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140468891522816 and this is thread id 140468911548160.
+2018-11-27 16:29:55,673 pool.py[line:317] ERROR Exception closing connection <sqlite3.Connection object at 0x7fc176651730>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 377, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+TypeError: getresponse() got an unexpected keyword argument 'buffering'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140468891522816 and this is thread id 140468911548160.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 314, in _close_connection
+    self._dialect.do_close(connection)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 465, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140468891522816 and this is thread id 140468911548160.
+2018-11-27 16:30:28,908 dice_service.py[line:55] ERROR 获取dice种子 异常 =Expecting value: line 1 column 1 (char 0)
+2018-11-27 16:30:28,909 views.py[line:33] ERROR api 获取dice种子 异常=Expecting value: line 1 column 1 (char 0)
+2018-11-27 16:32:41,541 connector.py[line:70] ERROR 开始处理调用合约返回的异常:
+2018-11-27 16:32:41,853 dice_service.py[line:115] ERROR 〓DICE〓 异步开奖异常  gameid=103 =(sqlite3.OperationalError) no such table: sms [SQL: 'SELECT sms.id AS sms_id, sms.type AS sms_type, sms.mobile AS sms_mobile, sms.sms_text AS sms_sms_text, sms.created_at AS sms_created_at \nFROM sms \nWHERE sms.type = ? ORDER BY sms.created_at DESC\n LIMIT ? OFFSET ?'] [parameters: (10, 1, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-11-27 16:32:41,882 connector.py[line:70] ERROR 开始处理调用合约返回的异常:
+2018-11-27 16:32:42,461 dice_service.py[line:115] ERROR 〓DICE〓 异步开奖异常  gameid=104 =(sqlite3.OperationalError) no such table: sms [SQL: 'SELECT sms.id AS sms_id, sms.type AS sms_type, sms.mobile AS sms_mobile, sms.sms_text AS sms_sms_text, sms.created_at AS sms_created_at \nFROM sms \nWHERE sms.type = ? ORDER BY sms.created_at DESC\n LIMIT ? OFFSET ?'] [parameters: (10, 1, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-11-27 16:32:51,318 connector.py[line:70] ERROR 开始处理调用合约返回的异常:
+2018-11-27 16:32:51,605 dice_service.py[line:115] ERROR 〓DICE〓 异步开奖异常  gameid=117 =(sqlite3.OperationalError) no such table: sms [SQL: 'SELECT sms.id AS sms_id, sms.type AS sms_type, sms.mobile AS sms_mobile, sms.sms_text AS sms_sms_text, sms.created_at AS sms_created_at \nFROM sms \nWHERE sms.type = ? ORDER BY sms.created_at DESC\n LIMIT ? OFFSET ?'] [parameters: (10, 1, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-11-27 16:32:53,208 pool.py[line:718] ERROR Exception during reset or similar
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140468881819392 and this is thread id 140468516026112.
+2018-11-27 16:32:53,260 pool.py[line:317] ERROR Exception closing connection <sqlite3.Connection object at 0x7fc17660eb90>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140468881819392 and this is thread id 140468516026112.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 314, in _close_connection
+    self._dialect.do_close(connection)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 465, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140468881819392 and this is thread id 140468516026112.
+2018-11-27 16:33:03,832 connector.py[line:70] ERROR 开始处理调用合约返回的异常:
+2018-11-27 16:33:04,066 dice_service.py[line:115] ERROR 〓DICE〓 异步开奖异常  gameid=158 =(sqlite3.OperationalError) no such table: sms [SQL: 'SELECT sms.id AS sms_id, sms.type AS sms_type, sms.mobile AS sms_mobile, sms.sms_text AS sms_sms_text, sms.created_at AS sms_created_at \nFROM sms \nWHERE sms.type = ? ORDER BY sms.created_at DESC\n LIMIT ? OFFSET ?'] [parameters: (10, 1, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-11-27 16:33:12,350 pool.py[line:718] ERROR Exception during reset or similar
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/util/_collections.py", line 1034, in __call__
+    return self.registry.value
+AttributeError: '_thread._local' object has no attribute 'value'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/event/base.py", line 79, in __init__
+    self._empty_listeners = self._empty_listener_reg[instance_cls]
+  File "/usr/local/lib/python3.6/weakref.py", line 394, in __getitem__
+    return self.data[ref(key)]
+KeyError: <weakref at 0x7fc176e37e08; to 'type' at 0x7fc1400008e8 (Session)>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140467442120448 and this is thread id 140467777828608.
+2018-11-27 16:33:12,470 pool.py[line:317] ERROR Exception closing connection <sqlite3.Connection object at 0x7fc1765a8490>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/util/_collections.py", line 1034, in __call__
+    return self.registry.value
+AttributeError: '_thread._local' object has no attribute 'value'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/event/base.py", line 79, in __init__
+    self._empty_listeners = self._empty_listener_reg[instance_cls]
+  File "/usr/local/lib/python3.6/weakref.py", line 394, in __getitem__
+    return self.data[ref(key)]
+KeyError: <weakref at 0x7fc176e37e08; to 'type' at 0x7fc1400008e8 (Session)>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140467442120448 and this is thread id 140467777828608.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 314, in _close_connection
+    self._dialect.do_close(connection)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 465, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140467442120448 and this is thread id 140467777828608.
+2018-11-27 16:33:12,490 connector.py[line:70] ERROR 开始处理调用合约返回的异常:
+2018-11-27 16:33:12,616 dice_service.py[line:115] ERROR 〓DICE〓 异步开奖异常  gameid=157 =(sqlite3.OperationalError) no such table: sms [SQL: 'SELECT sms.id AS sms_id, sms.type AS sms_type, sms.mobile AS sms_mobile, sms.sms_text AS sms_sms_text, sms.created_at AS sms_created_at \nFROM sms \nWHERE sms.type = ? ORDER BY sms.created_at DESC\n LIMIT ? OFFSET ?'] [parameters: (10, 1, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-11-27 16:33:13,804 pool.py[line:718] ERROR Exception during reset or similar
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140467467298560 and this is thread id 140468911548160.
+2018-11-27 16:33:13,805 pool.py[line:317] ERROR Exception closing connection <sqlite3.Connection object at 0x7fc1742c9d50>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140467467298560 and this is thread id 140468911548160.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 314, in _close_connection
+    self._dialect.do_close(connection)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 465, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140467467298560 and this is thread id 140468911548160.
+2018-11-27 16:33:14,371 connector.py[line:70] ERROR 开始处理调用合约返回的异常:
+2018-11-27 16:33:14,417 dice_service.py[line:115] ERROR 〓DICE〓 异步开奖异常  gameid=165 =(sqlite3.OperationalError) no such table: sms [SQL: 'SELECT sms.id AS sms_id, sms.type AS sms_type, sms.mobile AS sms_mobile, sms.sms_text AS sms_sms_text, sms.created_at AS sms_created_at \nFROM sms \nWHERE sms.type = ? ORDER BY sms.created_at DESC\n LIMIT ? OFFSET ?'] [parameters: (10, 1, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-11-27 16:33:16,147 connector.py[line:70] ERROR 开始处理调用合约返回的异常:
+2018-11-27 16:33:16,218 dice_service.py[line:115] ERROR 〓DICE〓 异步开奖异常  gameid=179 =(sqlite3.OperationalError) no such table: sms [SQL: 'SELECT sms.id AS sms_id, sms.type AS sms_type, sms.mobile AS sms_mobile, sms.sms_text AS sms_sms_text, sms.created_at AS sms_created_at \nFROM sms \nWHERE sms.type = ? ORDER BY sms.created_at DESC\n LIMIT ? OFFSET ?'] [parameters: (10, 1, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-11-27 16:33:16,288 connector.py[line:70] ERROR 开始处理调用合约返回的异常:
+2018-11-27 16:33:16,335 dice_service.py[line:115] ERROR 〓DICE〓 异步开奖异常  gameid=178 =(sqlite3.OperationalError) no such table: sms [SQL: 'SELECT sms.id AS sms_id, sms.type AS sms_type, sms.mobile AS sms_mobile, sms.sms_text AS sms_sms_text, sms.created_at AS sms_created_at \nFROM sms \nWHERE sms.type = ? ORDER BY sms.created_at DESC\n LIMIT ? OFFSET ?'] [parameters: (10, 1, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-11-27 16:33:16,682 connector.py[line:70] ERROR 开始处理调用合约返回的异常:
+2018-11-27 16:33:16,700 dice_service.py[line:115] ERROR 〓DICE〓 异步开奖异常  gameid=181 =(sqlite3.OperationalError) no such table: sms [SQL: 'SELECT sms.id AS sms_id, sms.type AS sms_type, sms.mobile AS sms_mobile, sms.sms_text AS sms_sms_text, sms.created_at AS sms_created_at \nFROM sms \nWHERE sms.type = ? ORDER BY sms.created_at DESC\n LIMIT ? OFFSET ?'] [parameters: (10, 1, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-11-27 16:33:16,804 connector.py[line:70] ERROR 开始处理调用合约返回的异常:
+2018-11-27 16:33:16,818 dice_service.py[line:115] ERROR 〓DICE〓 异步开奖异常  gameid=180 =(sqlite3.OperationalError) no such table: sms [SQL: 'SELECT sms.id AS sms_id, sms.type AS sms_type, sms.mobile AS sms_mobile, sms.sms_text AS sms_sms_text, sms.created_at AS sms_created_at \nFROM sms \nWHERE sms.type = ? ORDER BY sms.created_at DESC\n LIMIT ? OFFSET ?'] [parameters: (10, 1, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-11-27 16:33:37,258 pool.py[line:718] ERROR Exception during reset or similar
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140468482455296 and this is thread id 140468911548160.
+2018-11-27 16:33:37,259 pool.py[line:317] ERROR Exception closing connection <sqlite3.Connection object at 0x7fc176520f10>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140468482455296 and this is thread id 140468911548160.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 314, in _close_connection
+    self._dialect.do_close(connection)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 465, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140468482455296 and this is thread id 140468911548160.
+2018-11-27 16:33:37,261 pool.py[line:718] ERROR Exception during reset or similar
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140467458905856 and this is thread id 140468911548160.
+2018-11-27 16:33:37,261 pool.py[line:317] ERROR Exception closing connection <sqlite3.Connection object at 0x7fc17669a490>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140467458905856 and this is thread id 140468911548160.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 314, in _close_connection
+    self._dialect.do_close(connection)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 465, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140467458905856 and this is thread id 140468911548160.
+2018-11-27 16:33:37,283 pool.py[line:718] ERROR Exception during reset or similar
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140468507633408 and this is thread id 140468911548160.
+2018-11-27 16:33:37,284 pool.py[line:317] ERROR Exception closing connection <sqlite3.Connection object at 0x7fc176599650>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140468507633408 and this is thread id 140468911548160.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 314, in _close_connection
+    self._dialect.do_close(connection)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 465, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140468507633408 and this is thread id 140468911548160.
+2018-11-27 16:33:37,285 pool.py[line:718] ERROR Exception during reset or similar
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140467534440192 and this is thread id 140468911548160.
+2018-11-27 16:33:37,285 pool.py[line:317] ERROR Exception closing connection <sqlite3.Connection object at 0x7fc176623c70>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140467534440192 and this is thread id 140468911548160.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 314, in _close_connection
+    self._dialect.do_close(connection)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 465, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140467534440192 and this is thread id 140468911548160.
+2018-11-27 16:33:37,295 pool.py[line:718] ERROR Exception during reset or similar
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140467777828608 and this is thread id 140468911548160.
+2018-11-27 16:33:37,295 pool.py[line:317] ERROR Exception closing connection <sqlite3.Connection object at 0x7fc174491d50>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140467777828608 and this is thread id 140468911548160.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 314, in _close_connection
+    self._dialect.do_close(connection)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 465, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140467777828608 and this is thread id 140468911548160.
+2018-11-27 16:37:30,802 pool.py[line:718] ERROR Exception during reset or similar
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140468873426688 and this is thread id 140468911548160.
+2018-11-27 16:37:30,803 pool.py[line:317] ERROR Exception closing connection <sqlite3.Connection object at 0x7fc176e8db90>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140468873426688 and this is thread id 140468911548160.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 314, in _close_connection
+    self._dialect.do_close(connection)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 465, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140468873426688 and this is thread id 140468911548160.
+2018-11-27 16:37:30,804 pool.py[line:718] ERROR Exception during reset or similar
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140467467298560 and this is thread id 140468911548160.
+2018-11-27 16:37:30,804 pool.py[line:317] ERROR Exception closing connection <sqlite3.Connection object at 0x7fc176e28490>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 709, in _finalize_fairy
+    fairy._reset(pool)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 880, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 459, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140467467298560 and this is thread id 140468911548160.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/pool.py", line 314, in _close_connection
+    self._dialect.do_close(connection)
+  File "/usr/local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 465, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140467467298560 and this is thread id 140468911548160.
