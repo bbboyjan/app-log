@@ -1,0 +1,77 @@
+2018-12-07 00:08:42,412 connector.py[line:28] ERROR invalid room status roomid=11 gameid=384 异常已被处理
+2018-12-07 00:20:44,159 seed_service.py[line:125] ERROR no seed data
+2018-12-07 00:20:44,161 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 00:20:44,161 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 00:32:37,881 seed_service.py[line:125] ERROR no seed data
+2018-12-07 00:32:37,882 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 00:32:37,882 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 00:45:55,942 seed_service.py[line:125] ERROR no seed data
+2018-12-07 00:45:55,942 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 00:45:55,943 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 00:46:40,137 seed_service.py[line:125] ERROR no seed data
+2018-12-07 00:46:40,138 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 00:46:40,138 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 00:47:19,443 seed_service.py[line:125] ERROR no seed data
+2018-12-07 00:47:19,444 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 00:47:19,444 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 00:47:36,469 seed_service.py[line:125] ERROR no seed data
+2018-12-07 00:47:36,470 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 00:47:36,470 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 00:48:01,130 seed_service.py[line:125] ERROR no seed data
+2018-12-07 00:48:01,131 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 00:48:01,131 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 00:49:30,595 seed_service.py[line:125] ERROR no seed data
+2018-12-07 00:49:30,596 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 00:49:30,596 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 00:49:45,644 seed_service.py[line:125] ERROR no seed data
+2018-12-07 00:49:45,644 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 00:49:45,644 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 00:49:55,710 seed_service.py[line:125] ERROR no seed data
+2018-12-07 00:49:55,712 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 00:49:55,712 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 00:52:41,592 seed_service.py[line:125] ERROR no seed data
+2018-12-07 00:52:41,592 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 00:52:41,592 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 00:52:46,145 seed_service.py[line:125] ERROR no seed data
+2018-12-07 00:52:46,145 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 00:52:46,145 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 00:52:56,922 seed_service.py[line:125] ERROR no seed data
+2018-12-07 00:52:56,923 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 00:52:56,923 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 01:11:12,784 seed_service.py[line:125] ERROR no seed data
+2018-12-07 01:11:12,784 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 01:11:12,784 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 01:16:32,044 seed_service.py[line:125] ERROR no seed data
+2018-12-07 01:16:32,044 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 01:16:32,044 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 01:18:14,952 seed_service.py[line:125] ERROR no seed data
+2018-12-07 01:18:14,952 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 01:18:14,952 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 01:19:07,695 seed_service.py[line:125] ERROR no seed data
+2018-12-07 01:19:07,696 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 01:19:07,696 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 01:20:49,500 seed_service.py[line:125] ERROR no seed data
+2018-12-07 01:20:49,501 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 01:20:49,501 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 01:21:45,940 seed_service.py[line:125] ERROR no seed data
+2018-12-07 01:21:45,941 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 01:21:45,941 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 01:23:37,657 seed_service.py[line:125] ERROR no seed data
+2018-12-07 01:23:37,657 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 01:23:37,657 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 01:24:25,746 seed_service.py[line:125] ERROR no seed data
+2018-12-07 01:24:25,746 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 01:24:25,747 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 01:26:08,529 seed_service.py[line:125] ERROR no seed data
+2018-12-07 01:26:08,530 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 01:26:08,530 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 01:28:03,065 seed_service.py[line:125] ERROR no seed data
+2018-12-07 01:28:03,066 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 01:28:03,066 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 01:30:32,413 seed_service.py[line:125] ERROR no seed data
+2018-12-07 01:30:32,414 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 01:30:32,414 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-07 01:56:06,967 connector.py[line:28] ERROR invalid room status roomid=8 gameid=1496 异常已被处理
+2018-12-07 01:57:03,432 seed_service.py[line:125] ERROR no seed data
+2018-12-07 01:57:03,433 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
+2018-12-07 01:57:03,433 views.py[line:78] ERROR api get_seed 异常=no seed data
