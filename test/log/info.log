@@ -1,0 +1,711 @@
+2018-12-09 05:52:12,380 _internal.py[line:88] INFO  * Running on http://0.0.0.0:8090/ (Press CTRL+C to quit)
+2018-12-09 05:52:18,814 base.py[line:878] INFO Added job "bacara" to job store "default"
+2018-12-09 05:52:18,814 timer_service.py[line:11] INFO 同步时间开始
+2018-12-09 05:52:18,814 connector.py[line:79] INFO CONST.EOS_HOST http://api-kylin.eosasia.one
+2018-12-09 05:52:18,979 connector.py[line:86] INFO timer =2018-12-09 05:52:18
+2018-12-09 05:52:18,979 timer_service.py[line:13] INFO 区块链时间为 1544334738
+2018-12-09 05:52:18,980 timer_service.py[line:15] INFO 当前时间为 1544334738
+2018-12-09 05:52:18,980 timer_service.py[line:17] INFO 差值 0
+2018-12-09 05:52:18,980 _internal.py[line:88] INFO 127.0.0.1 - - [09/Dec/2018 05:52:18] "POST /init HTTP/1.1" 200 -
+2018-12-09 05:52:21,787 base.py[line:123] INFO Running job "bacara (trigger: date[2018-12-09 05:52:21 UTC], next run at: 2018-12-09 05:52:21 UTC)" (scheduled at 2018-12-09 05:52:21.786486+00:00)
+2018-12-09 05:52:21,787 base.py[line:624] INFO Removed job bacara
+2018-12-09 05:52:21,914 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=55 gameid=4222 完成
+2018-12-09 05:52:21,914 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28401 roomid=55 game_id=4222 hash=353bb5be6f638386a4c651f9db7170307ca926242869c20236932aa6fea8615a anybody_bet=False
+2018-12-09 05:52:21,915 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:52:21,915 reveal_service.py[line:110] INFO [async_call_sub] roomid=55 gameid=4222 house_seed=3f18fa8aefc61f096272dec0a4c2bef6f30803b79d3b2f3498bb99e43834f4c9
+2018-12-09 05:52:21,915 reveal_service.py[line:115] INFO reveal=====  room_id=55 game_id=4222 house_seed=3f18fa8aefc61f096272dec0a4c2bef6f30803b79d3b2f3498bb99e43834f4c9
+2018-12-09 05:52:21,916 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[55,4222,"3f18fa8aefc61f096272dec0a4c2bef6f30803b79d3b2f3498bb99e43834f4c9"]' -p ffgamemanage
+2018-12-09 05:52:21,929 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=58 gameid=3060 完成
+2018-12-09 05:52:21,929 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28399 roomid=58 game_id=3060 hash=9b009843fa2bcb74cb5d0a2f634551c776990b39eaa2301299fa876e448f818a anybody_bet=False
+2018-12-09 05:52:21,930 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:52:21,930 reveal_service.py[line:110] INFO [async_call_sub] roomid=58 gameid=3060 house_seed=5fc4356242839668f6e1daeecc7759e9ed169824168ad4a005c64b538e5a1e03
+2018-12-09 05:52:21,930 reveal_service.py[line:115] INFO reveal=====  room_id=58 game_id=3060 house_seed=5fc4356242839668f6e1daeecc7759e9ed169824168ad4a005c64b538e5a1e03
+2018-12-09 05:52:21,930 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[58,3060,"5fc4356242839668f6e1daeecc7759e9ed169824168ad4a005c64b538e5a1e03"]' -p ffgamemanage
+2018-12-09 05:52:21,943 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=60 gameid=2680 完成
+2018-12-09 05:52:21,944 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28398 roomid=60 game_id=2680 hash=c3bf4c1c126a34ec63d4a353c6c9a890e1bb3803c7900be90eb597c4a8c52b3d anybody_bet=False
+2018-12-09 05:52:21,944 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:52:21,944 reveal_service.py[line:110] INFO [async_call_sub] roomid=60 gameid=2680 house_seed=b8cb13cd51a206253fdddcb52252ee06644662bfadbd33ae1f029e3bfd0a037b
+2018-12-09 05:52:21,944 reveal_service.py[line:115] INFO reveal=====  room_id=60 game_id=2680 house_seed=b8cb13cd51a206253fdddcb52252ee06644662bfadbd33ae1f029e3bfd0a037b
+2018-12-09 05:52:21,944 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[60,2680,"b8cb13cd51a206253fdddcb52252ee06644662bfadbd33ae1f029e3bfd0a037b"]' -p ffgamemanage
+2018-12-09 05:52:21,961 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=63 gameid=1086 完成
+2018-12-09 05:52:21,962 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28402 roomid=63 game_id=1086 hash=70728582d6a032c4bce7be6cf8e4c2224b441062c744cacc907e07417607c6f0 anybody_bet=False
+2018-12-09 05:52:21,963 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:52:21,963 reveal_service.py[line:110] INFO [async_call_sub] roomid=63 gameid=1086 house_seed=1d25694ee9e25333a189df01e17f63d064fff19b16f6c2738e6e951be050c4ac
+2018-12-09 05:52:21,963 reveal_service.py[line:115] INFO reveal=====  room_id=63 game_id=1086 house_seed=1d25694ee9e25333a189df01e17f63d064fff19b16f6c2738e6e951be050c4ac
+2018-12-09 05:52:21,963 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[63,1086,"1d25694ee9e25333a189df01e17f63d064fff19b16f6c2738e6e951be050c4ac"]' -p ffgamemanage
+2018-12-09 05:52:21,977 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=64 gameid=4365 完成
+2018-12-09 05:52:21,977 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28400 roomid=64 game_id=4365 hash=f6be23a32b58a23bb4626758c284d96a32c898c4aa274288237b9a5557e305b5 anybody_bet=False
+2018-12-09 05:52:21,977 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:52:21,978 reveal_service.py[line:110] INFO [async_call_sub] roomid=64 gameid=4365 house_seed=66dd892499287571350b141b3abae3b3afae24a2fefae764a78c753482360d40
+2018-12-09 05:52:21,979 reveal_service.py[line:115] INFO reveal=====  room_id=64 game_id=4365 house_seed=66dd892499287571350b141b3abae3b3afae24a2fefae764a78c753482360d40
+2018-12-09 05:52:21,979 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[64,4365,"66dd892499287571350b141b3abae3b3afae24a2fefae764a78c753482360d40"]' -p ffgamemanage
+2018-12-09 05:52:21,991 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=66 gameid=2 完成
+2018-12-09 05:52:21,991 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28181 roomid=66 game_id=2 hash=69051821499edaf1e7dd350f245c0893560b252cab09c37a8edfcb841cc70558 anybody_bet=False
+2018-12-09 05:52:21,992 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:52:21,992 reveal_service.py[line:110] INFO [async_call_sub] roomid=66 gameid=2 house_seed=69e5e011c27aab58d478b907765c23037271938aba17ee6935f0f68bf70b7ff1
+2018-12-09 05:52:21,992 reveal_service.py[line:115] INFO reveal=====  room_id=66 game_id=2 house_seed=69e5e011c27aab58d478b907765c23037271938aba17ee6935f0f68bf70b7ff1
+2018-12-09 05:52:21,992 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[66,2,"69e5e011c27aab58d478b907765c23037271938aba17ee6935f0f68bf70b7ff1"]' -p ffgamemanage
+2018-12-09 05:52:22,342 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":64,"game_id":4365,"house_seed":"66dd892499287571350b141b3abae3b3afae24a2fefae764a78c75348...\n'
+2018-12-09 05:52:22,342 connector.py[line:106] INFO stderr =b'executed transaction: 9461b32c3cde328db5997a23c18a51a93e383e26c4090be61c504e54f5315a4d  184 bytes  9587 us\nwarn  2018-12-09T05:52:22.341 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:52:22,342 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:52:22,343 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=364 尝试次数=0
+2018-12-09 05:52:22,355 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:52:22,355 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:52:22,355 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:52:22,374 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":55,"game_id":4222,"house_seed":"3f18fa8aefc61f096272dec0a4c2bef6f30803b79d3b2f3498bb99e43...\n'
+2018-12-09 05:52:22,384 connector.py[line:106] INFO stderr =b'executed transaction: 2a955d0ec8f04fb054353eb676f3582f8e030a47f15375896852c53a5b505468  184 bytes  9090 us\nwarn  2018-12-09T05:52:22.357 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:52:22,390 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:52:22,400 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":58,"game_id":3060,"house_seed":"5fc4356242839668f6e1daeecc7759e9ed169824168ad4a005c64b538...\n'
+2018-12-09 05:52:22,400 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=485 尝试次数=0
+2018-12-09 05:52:22,421 connector.py[line:106] INFO stderr =b'executed transaction: 5173e50fa4331b9848656e807c3f8eb7b96d3df329cb9cec1075a9d7be367970  184 bytes  8451 us\nwarn  2018-12-09T05:52:22.372 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:52:22,421 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":63,"game_id":1086,"house_seed":"1d25694ee9e25333a189df01e17f63d064fff19b16f6c2738e6e951be...\n'
+2018-12-09 05:52:22,448 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:52:22,453 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":66,"game_id":2,"house_seed":"69e5e011c27aab58d478b907765c23037271938aba17ee6935f0f68bf70b...\n'
+2018-12-09 05:52:22,459 connector.py[line:106] INFO stderr =b'executed transaction: 731613c01c785c1a3e707518ff07217527043a3bc23698ee34c9bb251231142a  184 bytes  9258 us\nwarn  2018-12-09T05:52:22.386 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:52:22,490 connector.py[line:106] INFO stderr =b'executed transaction: d8a503d5db7a0730b4e462dd3aa6fca9b93c59ff2f2209987e074188e12d48ec  184 bytes  7542 us\nwarn  2018-12-09T05:52:22.417 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:52:22,495 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=564 尝试次数=0
+2018-12-09 05:52:22,500 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:52:22,512 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:52:22,530 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":60,"game_id":2680,"house_seed":"b8cb13cd51a206253fdddcb52252ee06644662bfadbd33ae1f029e3bf...\n'
+2018-12-09 05:52:22,546 connector.py[line:106] INFO stderr =b'executed transaction: 880536581d4313cd22d3c09933148592a76a94148aad43a5e53bac57f6579c68  184 bytes  11899 us\nwarn  2018-12-09T05:52:22.522 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:52:22,546 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:52:22,530 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=567 尝试次数=0
+2018-12-09 05:52:22,547 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=554 尝试次数=0
+2018-12-09 05:52:22,557 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:52:22,562 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:52:22,615 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=672 尝试次数=0
+2018-12-09 05:52:22,616 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:52:22,649 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:52:22,650 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:52:22,655 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:52:22,852 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:52:23,066 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:52:23,081 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:52:23,091 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:52:23,111 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:52:23,198 connector.py[line:95] INFO signature 耗时========= 636
+2018-12-09 05:52:23,199 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:52:23,215 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:52:23,235 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:52:23,480 connector.py[line:95] INFO signature 耗时========= 1126
+2018-12-09 05:52:23,512 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:52:23,532 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:52:23,815 connector.py[line:95] INFO signature 耗时========= 1165
+2018-12-09 05:52:23,815 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:52:23,832 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=4223 hash=f8fcf90f3a36c588b354cef66baf73ece1a5f5edbf13ee063515e755a2c2ffcc
+2018-12-09 05:52:24,125 connector.py[line:95] INFO signature 耗时========= 1034
+2018-12-09 05:52:24,157 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:52:24,241 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=1087 hash=e825dc7d83d0c7b56b203237d2d32369647e8676f4235eb5ed671c426e0c4d54
+2018-12-09 05:52:24,215 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:52:24,231 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:52:24,182 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=4366 hash=0ea39df0467fed66d717502fc2c43784c99f04c4c1643d134ebb80ce8476f3ca
+2018-12-09 05:52:24,263 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=3061 hash=7718f7faacb0f6d8bd2c42671a345f496b7e12668000e425a5f27eb05d6ae75a
+2018-12-09 05:52:24,274 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:52:24,336 connector.py[line:95] INFO signature 耗时========= 1225
+2018-12-09 05:52:24,387 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:52:24,398 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=2681 hash=2269d53011d152842b387454012ba827fa843a6d9ab8f1ba9c2d01d78fa07c18
+2018-12-09 05:52:24,404 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:52:24,410 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:52:24,472 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:52:24,473 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=2557 roomid=55 gameid=4222 seed=3f18fa8aefc61f096272dec0a4c2bef6f30803b79d3b2f3498bb99e43834f4c9
+2018-12-09 05:52:24,479 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:52:24,490 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:52:24,508 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:52:24,514 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=2551 roomid=63 gameid=1086 seed=1d25694ee9e25333a189df01e17f63d064fff19b16f6c2738e6e951be050c4ac
+2018-12-09 05:52:24,520 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:52:24,520 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:52:24,520 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:52:24,542 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=2563 roomid=64 gameid=4365 seed=66dd892499287571350b141b3abae3b3afae24a2fefae764a78c753482360d40
+2018-12-09 05:52:24,603 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:52:24,614 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:52:24,662 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:52:24,668 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=2724 roomid=60 gameid=2680 seed=b8cb13cd51a206253fdddcb52252ee06644662bfadbd33ae1f029e3bfd0a037b
+2018-12-09 05:52:24,673 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:52:24,704 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=2773 roomid=58 gameid=3060 seed=5fc4356242839668f6e1daeecc7759e9ed169824168ad4a005c64b538e5a1e03
+2018-12-09 05:52:25,126 connector.py[line:95] INFO signature 耗时========= 1928
+2018-12-09 05:52:25,127 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:52:25,127 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=3 hash=c447599ae7fad23ca1e34e277ce15a5d6af30db1bb14030262cb5e58441bc41a
+2018-12-09 05:52:25,136 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:52:25,144 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:52:25,148 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:52:25,148 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=3156 roomid=66 gameid=2 seed=69e5e011c27aab58d478b907765c23037271938aba17ee6935f0f68bf70b7ff1
+2018-12-09 05:52:36,107 seed_service.py[line:30] INFO room_id = 58
+2018-12-09 05:52:36,107 seed_service.py[line:31] INFO game_id = 3061
+2018-12-09 05:52:36,111 seed_service.py[line:39] INFO m.room_id = 58
+2018-12-09 05:52:36,111 seed_service.py[line:40] INFO m.game_id = 3061
+2018-12-09 05:52:36,111 _internal.py[line:88] INFO 127.0.0.1 - - [09/Dec/2018 05:52:36] "GET /api/baccarat/get_seed?room_id=58&game_id=3061&_=t1544334756050 HTTP/1.0" 200 -
+2018-12-09 05:52:37,923 seed_service.py[line:30] INFO room_id = 55
+2018-12-09 05:52:37,923 seed_service.py[line:31] INFO game_id = 4223
+2018-12-09 05:52:37,926 seed_service.py[line:39] INFO m.room_id = 55
+2018-12-09 05:52:37,926 seed_service.py[line:40] INFO m.game_id = 4223
+2018-12-09 05:52:37,926 _internal.py[line:88] INFO 127.0.0.1 - - [09/Dec/2018 05:52:37] "GET /api/baccarat/get_seed?room_id=55&game_id=4223&_=t1544334757771 HTTP/1.0" 200 -
+2018-12-09 05:53:13,610 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=55 gameid=4223 完成
+2018-12-09 05:53:13,611 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28403 roomid=55 game_id=4223 hash=f8fcf90f3a36c588b354cef66baf73ece1a5f5edbf13ee063515e755a2c2ffcc anybody_bet=False
+2018-12-09 05:53:13,611 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:53:13,612 reveal_service.py[line:110] INFO [async_call_sub] roomid=55 gameid=4223 house_seed=657ebb8fea6a34448ffa3e63b6296d4e0d1f601de8318985f284112a77caff8a
+2018-12-09 05:53:13,612 reveal_service.py[line:115] INFO reveal=====  room_id=55 game_id=4223 house_seed=657ebb8fea6a34448ffa3e63b6296d4e0d1f601de8318985f284112a77caff8a
+2018-12-09 05:53:13,612 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[55,4223,"657ebb8fea6a34448ffa3e63b6296d4e0d1f601de8318985f284112a77caff8a"]' -p ffgamemanage
+2018-12-09 05:53:13,624 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=58 gameid=3061 完成
+2018-12-09 05:53:13,624 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28407 roomid=58 game_id=3061 hash=7718f7faacb0f6d8bd2c42671a345f496b7e12668000e425a5f27eb05d6ae75a anybody_bet=False
+2018-12-09 05:53:13,626 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:53:13,626 reveal_service.py[line:110] INFO [async_call_sub] roomid=58 gameid=3061 house_seed=7bed07b869512324b8ec270e2ca7790315090804a0651ba1b2dfa2f4b57b744a
+2018-12-09 05:53:13,626 reveal_service.py[line:115] INFO reveal=====  room_id=58 game_id=3061 house_seed=7bed07b869512324b8ec270e2ca7790315090804a0651ba1b2dfa2f4b57b744a
+2018-12-09 05:53:13,627 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[58,3061,"7bed07b869512324b8ec270e2ca7790315090804a0651ba1b2dfa2f4b57b744a"]' -p ffgamemanage
+2018-12-09 05:53:13,637 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=63 gameid=1087 完成
+2018-12-09 05:53:13,638 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28404 roomid=63 game_id=1087 hash=e825dc7d83d0c7b56b203237d2d32369647e8676f4235eb5ed671c426e0c4d54 anybody_bet=False
+2018-12-09 05:53:13,639 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:53:13,639 reveal_service.py[line:110] INFO [async_call_sub] roomid=63 gameid=1087 house_seed=b373d84398c44def9461fee62fa128672cdd06c7f8db373ab5fb19e3335027d1
+2018-12-09 05:53:13,640 reveal_service.py[line:115] INFO reveal=====  room_id=63 game_id=1087 house_seed=b373d84398c44def9461fee62fa128672cdd06c7f8db373ab5fb19e3335027d1
+2018-12-09 05:53:13,640 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[63,1087,"b373d84398c44def9461fee62fa128672cdd06c7f8db373ab5fb19e3335027d1"]' -p ffgamemanage
+2018-12-09 05:53:13,650 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=64 gameid=4366 完成
+2018-12-09 05:53:13,650 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28405 roomid=64 game_id=4366 hash=0ea39df0467fed66d717502fc2c43784c99f04c4c1643d134ebb80ce8476f3ca anybody_bet=False
+2018-12-09 05:53:13,651 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:53:13,652 reveal_service.py[line:110] INFO [async_call_sub] roomid=64 gameid=4366 house_seed=85e0a0070c1427906a3abf97e8064fc1301d568a6dd482d7f2cc691c23b3305b
+2018-12-09 05:53:13,652 reveal_service.py[line:115] INFO reveal=====  room_id=64 game_id=4366 house_seed=85e0a0070c1427906a3abf97e8064fc1301d568a6dd482d7f2cc691c23b3305b
+2018-12-09 05:53:13,652 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[64,4366,"85e0a0070c1427906a3abf97e8064fc1301d568a6dd482d7f2cc691c23b3305b"]' -p ffgamemanage
+2018-12-09 05:53:13,667 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=66 gameid=3 完成
+2018-12-09 05:53:13,667 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28408 roomid=66 game_id=3 hash=c447599ae7fad23ca1e34e277ce15a5d6af30db1bb14030262cb5e58441bc41a anybody_bet=False
+2018-12-09 05:53:13,669 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:53:13,669 reveal_service.py[line:110] INFO [async_call_sub] roomid=66 gameid=3 house_seed=e64b08337fe6141b16a63be86705eac80b0aee70892e14f6f2121898ce87fb20
+2018-12-09 05:53:13,669 reveal_service.py[line:115] INFO reveal=====  room_id=66 game_id=3 house_seed=e64b08337fe6141b16a63be86705eac80b0aee70892e14f6f2121898ce87fb20
+2018-12-09 05:53:13,669 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[66,3,"e64b08337fe6141b16a63be86705eac80b0aee70892e14f6f2121898ce87fb20"]' -p ffgamemanage
+2018-12-09 05:53:14,063 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":55,"game_id":4223,"house_seed":"657ebb8fea6a34448ffa3e63b6296d4e0d1f601de8318985f284112a7...\n'
+2018-12-09 05:53:14,064 connector.py[line:106] INFO stderr =b'executed transaction: cb72edd17b292e9930f09d4f8f260a2d7eea265118b97a601f5603c33873df9a  184 bytes  11223 us\nwarn  2018-12-09T05:53:14.062 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:53:14,064 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:53:14,064 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=452 尝试次数=0
+2018-12-09 05:53:14,070 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":58,"game_id":3061,"house_seed":"7bed07b869512324b8ec270e2ca7790315090804a0651ba1b2dfa2f4b...\n'
+2018-12-09 05:53:14,070 connector.py[line:106] INFO stderr =b'executed transaction: cee86654e01a2159651516234c15a08292c1a5a71a20a4d28dd37aad7623b679  184 bytes  7982 us\nwarn  2018-12-09T05:53:14.069 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:53:14,070 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:53:14,070 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=444 尝试次数=0
+2018-12-09 05:53:14,074 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:53:14,075 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:53:14,075 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:53:14,101 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:53:14,102 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":63,"game_id":1087,"house_seed":"b373d84398c44def9461fee62fa128672cdd06c7f8db373ab5fb19e33...\n'
+2018-12-09 05:53:14,112 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:53:14,128 connector.py[line:106] INFO stderr =b'executed transaction: c32527aafbf92ca1b1758110bbd44ba55f79e537347a75d39b6b463ad30ee505  184 bytes  10428 us\nwarn  2018-12-09T05:53:14.082 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:53:14,155 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:53:14,163 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:53:14,163 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":64,"game_id":4366,"house_seed":"85e0a0070c1427906a3abf97e8064fc1301d568a6dd482d7f2cc691c2...\n'
+2018-12-09 05:53:14,180 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=541 尝试次数=0
+2018-12-09 05:53:14,187 connector.py[line:106] INFO stderr =b'executed transaction: 7b9eeab911509443317c847cc0b090a0d5bd5da6f00d7e436295255869128a6d  184 bytes  7742 us\nwarn  2018-12-09T05:53:14.156 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:53:14,602 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":66,"game_id":3,"house_seed":"e64b08337fe6141b16a63be86705eac80b0aee70892e14f6f2121898ce87...\n'
+2018-12-09 05:53:14,602 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:53:14,622 connector.py[line:106] INFO stderr =b'executed transaction: 86166809100a8b0344074a86642d8677d61db26e95c6d0945b13cffc8c3f58c6  184 bytes  8578 us\nwarn  2018-12-09T05:53:14.225 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:53:14,634 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:53:14,634 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=982 尝试次数=0
+2018-12-09 05:53:14,640 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=60 gameid=2681 完成
+2018-12-09 05:53:14,655 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=986 尝试次数=0
+2018-12-09 05:53:14,667 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:53:14,730 connector.py[line:95] INFO signature 耗时========= 656
+2018-12-09 05:53:14,753 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:53:14,754 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:53:14,754 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28406 roomid=60 game_id=2681 hash=2269d53011d152842b387454012ba827fa843a6d9ab8f1ba9c2d01d78fa07c18 anybody_bet=False
+2018-12-09 05:53:14,765 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:53:14,771 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:53:14,820 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:53:14,788 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:53:14,815 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:53:14,782 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=4224 hash=e2f153e5604c80439e33c521a07e60378f113c8c8fb983c64b3422b48ae4dc57
+2018-12-09 05:53:14,825 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:53:14,836 reveal_service.py[line:110] INFO [async_call_sub] roomid=60 gameid=2681 house_seed=b79b04a814b6b80e63261c218a5ccf2e9535856dd81bc9e2be3860298324466a
+2018-12-09 05:53:14,934 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:53:14,968 reveal_service.py[line:115] INFO reveal=====  room_id=60 game_id=2681 house_seed=b79b04a814b6b80e63261c218a5ccf2e9535856dd81bc9e2be3860298324466a
+2018-12-09 05:53:14,979 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:53:14,994 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:53:15,098 connector.py[line:95] INFO signature 耗时========= 986
+2018-12-09 05:53:15,114 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[60,2681,"b79b04a814b6b80e63261c218a5ccf2e9535856dd81bc9e2be3860298324466a"]' -p ffgamemanage
+2018-12-09 05:53:15,314 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:53:15,331 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=3062 hash=a60a70c55a1819cf1fa76b60939f7fd40f3fc2115dbed94759dc7448f3f1cd09
+2018-12-09 05:53:15,343 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:53:15,392 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:53:15,394 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:53:15,394 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=1783 roomid=55 gameid=4223 seed=657ebb8fea6a34448ffa3e63b6296d4e0d1f601de8318985f284112a77caff8a
+2018-12-09 05:53:15,413 connector.py[line:95] INFO signature 耗时========= 660
+2018-12-09 05:53:15,424 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:53:15,440 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:53:15,445 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=1088 hash=4cbb3df94e19e076a924b0db36713a59d49c3d837528dc8adff6742653d5c39b
+2018-12-09 05:53:15,495 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:53:15,500 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=1874 roomid=58 gameid=3061 seed=7bed07b869512324b8ec270e2ca7790315090804a0651ba1b2dfa2f4b57b744a
+2018-12-09 05:53:15,554 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:53:15,732 connector.py[line:95] INFO signature 耗时========= 912
+2018-12-09 05:53:15,738 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:53:15,743 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=4367 hash=3da38b32b874c3455d3874466d07abebe0653bc05200930ec05834a4bfafcae5
+2018-12-09 05:53:15,761 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:53:15,800 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:53:15,860 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:53:15,861 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=2221 roomid=63 gameid=1087 seed=b373d84398c44def9461fee62fa128672cdd06c7f8db373ab5fb19e3335027d1
+2018-12-09 05:53:15,861 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":60,"game_id":2681,"house_seed":"b79b04a814b6b80e63261c218a5ccf2e9535856dd81bc9e2be3860298...\n'
+2018-12-09 05:53:15,872 connector.py[line:106] INFO stderr =b'executed transaction: cb30feb9c755457da6991e3ea7138d13408a368aee1636ef7b5157cb1ba1a7b4  184 bytes  11277 us\nwarn  2018-12-09T05:53:15.815 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:53:15,872 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:53:15,880 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=913 尝试次数=0
+2018-12-09 05:53:15,887 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:53:15,947 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:53:15,948 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=2297 roomid=64 gameid=4366 seed=85e0a0070c1427906a3abf97e8064fc1301d568a6dd482d7f2cc691c23b3305b
+2018-12-09 05:53:15,979 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:53:15,985 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:53:15,990 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:53:16,122 connector.py[line:95] INFO signature 耗时========= 1188
+2018-12-09 05:53:16,128 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:53:16,138 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=4 hash=b22fb3fcd8958879b03acd06b828f32d01839dcf0d324b54b7c21a2c40013d93
+2018-12-09 05:53:16,167 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:53:16,247 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:53:16,269 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:53:16,274 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=2605 roomid=66 gameid=3 seed=e64b08337fe6141b16a63be86705eac80b0aee70892e14f6f2121898ce87fb20
+2018-12-09 05:53:16,420 connector.py[line:95] INFO signature 耗时========= 435
+2018-12-09 05:53:16,420 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:53:16,420 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=2682 hash=c39349e8eaa2c8f4a552f092bb30bce203d0b8dfeaca963f0b4031cb15475173
+2018-12-09 05:53:16,426 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:53:16,437 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:53:16,442 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:53:16,443 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=1475 roomid=60 gameid=2681 seed=b79b04a814b6b80e63261c218a5ccf2e9535856dd81bc9e2be3860298324466a
+2018-12-09 05:53:28,047 seed_service.py[line:30] INFO room_id = 58
+2018-12-09 05:53:28,047 seed_service.py[line:31] INFO game_id = 3062
+2018-12-09 05:53:28,050 seed_service.py[line:39] INFO m.room_id = 58
+2018-12-09 05:53:28,050 seed_service.py[line:40] INFO m.game_id = 3062
+2018-12-09 05:53:28,051 _internal.py[line:88] INFO 127.0.0.1 - - [09/Dec/2018 05:53:28] "GET /api/baccarat/get_seed?room_id=58&game_id=3062&_=t1544334808013 HTTP/1.0" 200 -
+2018-12-09 05:53:33,881 seed_service.py[line:30] INFO room_id = 55
+2018-12-09 05:53:33,882 seed_service.py[line:31] INFO game_id = 4224
+2018-12-09 05:53:33,887 seed_service.py[line:39] INFO m.room_id = 55
+2018-12-09 05:53:33,887 seed_service.py[line:40] INFO m.game_id = 4224
+2018-12-09 05:53:33,888 _internal.py[line:88] INFO 127.0.0.1 - - [09/Dec/2018 05:53:33] "GET /api/baccarat/get_seed?room_id=55&game_id=4224&_=t1544334811686 HTTP/1.0" 200 -
+2018-12-09 05:53:35,714 reveal_service.py[line:159] INFO [ASYNC_PROCESS_FRIST] 房间新建后第一次开奖，且无人下注 roomid=68
+2018-12-09 05:53:35,714 connector.py[line:22] INFO reveal=====  room_id=68 game_id=1 house_seed=a479f8a9f9e459d048397957e07e0f1b51d562ffa10928be1a37b98ba6dce46d
+2018-12-09 05:53:35,715 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[68,1,"a479f8a9f9e459d048397957e07e0f1b51d562ffa10928be1a37b98ba6dce46d"]' -p ffgamemanage
+2018-12-09 05:53:36,235 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":68,"game_id":1,"house_seed":"a479f8a9f9e459d048397957e07e0f1b51d562ffa10928be1a37b98ba6dc...\n'
+2018-12-09 05:53:36,235 connector.py[line:106] INFO stderr =b'executed transaction: 6fac2d5cd5fe3701f5bbd6883469181efe13740683795a1619532ec97c30fd7f  184 bytes  8257 us\nwarn  2018-12-09T05:53:36.233 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:53:36,237 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:53:36,237 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:53:36,237 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:53:37,015 connector.py[line:95] INFO signature 耗时========= 777
+2018-12-09 05:53:37,022 reveal_service.py[line:165] INFO [ASYNC_PROCESS_FRIST] 开奖完成 roomid=68 gameid=1
+2018-12-09 05:54:05,613 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=55 gameid=4224 完成
+2018-12-09 05:54:05,613 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28409 roomid=55 game_id=4224 hash=e2f153e5604c80439e33c521a07e60378f113c8c8fb983c64b3422b48ae4dc57 anybody_bet=False
+2018-12-09 05:54:05,614 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:54:05,614 reveal_service.py[line:110] INFO [async_call_sub] roomid=55 gameid=4224 house_seed=96969a048fd5bd5224dc1ab8bfe40aa2fc646b0cfab614788c4b6b42bedc20f1
+2018-12-09 05:54:05,614 reveal_service.py[line:115] INFO reveal=====  room_id=55 game_id=4224 house_seed=96969a048fd5bd5224dc1ab8bfe40aa2fc646b0cfab614788c4b6b42bedc20f1
+2018-12-09 05:54:05,614 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[55,4224,"96969a048fd5bd5224dc1ab8bfe40aa2fc646b0cfab614788c4b6b42bedc20f1"]' -p ffgamemanage
+2018-12-09 05:54:05,627 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=58 gameid=3062 完成
+2018-12-09 05:54:05,627 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28410 roomid=58 game_id=3062 hash=a60a70c55a1819cf1fa76b60939f7fd40f3fc2115dbed94759dc7448f3f1cd09 anybody_bet=False
+2018-12-09 05:54:05,628 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:54:05,628 reveal_service.py[line:110] INFO [async_call_sub] roomid=58 gameid=3062 house_seed=b7facdde82d841f7cc94d222b25f6ee9f5bdc4de8b5617f31ac867aa4f46484c
+2018-12-09 05:54:05,628 reveal_service.py[line:115] INFO reveal=====  room_id=58 game_id=3062 house_seed=b7facdde82d841f7cc94d222b25f6ee9f5bdc4de8b5617f31ac867aa4f46484c
+2018-12-09 05:54:05,629 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[58,3062,"b7facdde82d841f7cc94d222b25f6ee9f5bdc4de8b5617f31ac867aa4f46484c"]' -p ffgamemanage
+2018-12-09 05:54:05,640 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=63 gameid=1088 完成
+2018-12-09 05:54:05,641 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28411 roomid=63 game_id=1088 hash=4cbb3df94e19e076a924b0db36713a59d49c3d837528dc8adff6742653d5c39b anybody_bet=False
+2018-12-09 05:54:05,642 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:54:05,642 reveal_service.py[line:110] INFO [async_call_sub] roomid=63 gameid=1088 house_seed=4bda3d275aa577f5b927aff447709b60c1990ec9e2046c1ca847e5806245b556
+2018-12-09 05:54:05,642 reveal_service.py[line:115] INFO reveal=====  room_id=63 game_id=1088 house_seed=4bda3d275aa577f5b927aff447709b60c1990ec9e2046c1ca847e5806245b556
+2018-12-09 05:54:05,642 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[63,1088,"4bda3d275aa577f5b927aff447709b60c1990ec9e2046c1ca847e5806245b556"]' -p ffgamemanage
+2018-12-09 05:54:05,653 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=64 gameid=4367 完成
+2018-12-09 05:54:05,653 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28412 roomid=64 game_id=4367 hash=3da38b32b874c3455d3874466d07abebe0653bc05200930ec05834a4bfafcae5 anybody_bet=False
+2018-12-09 05:54:05,655 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:54:05,655 reveal_service.py[line:110] INFO [async_call_sub] roomid=64 gameid=4367 house_seed=a76f1cf487b7d50e1f6e630c274be4d3e45891e769ab28c234a36be8ea9db673
+2018-12-09 05:54:05,655 reveal_service.py[line:115] INFO reveal=====  room_id=64 game_id=4367 house_seed=a76f1cf487b7d50e1f6e630c274be4d3e45891e769ab28c234a36be8ea9db673
+2018-12-09 05:54:05,655 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[64,4367,"a76f1cf487b7d50e1f6e630c274be4d3e45891e769ab28c234a36be8ea9db673"]' -p ffgamemanage
+2018-12-09 05:54:05,667 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=66 gameid=4 完成
+2018-12-09 05:54:05,667 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28413 roomid=66 game_id=4 hash=b22fb3fcd8958879b03acd06b828f32d01839dcf0d324b54b7c21a2c40013d93 anybody_bet=False
+2018-12-09 05:54:05,669 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:54:05,669 reveal_service.py[line:110] INFO [async_call_sub] roomid=66 gameid=4 house_seed=fe4835c463fa69cce5b8bdb27009c4ab667f2b99bf9408c2bd7442690baeeb91
+2018-12-09 05:54:05,669 reveal_service.py[line:115] INFO reveal=====  room_id=66 game_id=4 house_seed=fe4835c463fa69cce5b8bdb27009c4ab667f2b99bf9408c2bd7442690baeeb91
+2018-12-09 05:54:05,669 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[66,4,"fe4835c463fa69cce5b8bdb27009c4ab667f2b99bf9408c2bd7442690baeeb91"]' -p ffgamemanage
+2018-12-09 05:54:06,019 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":63,"game_id":1088,"house_seed":"4bda3d275aa577f5b927aff447709b60c1990ec9e2046c1ca847e5806...\n'
+2018-12-09 05:54:06,021 connector.py[line:106] INFO stderr =b'executed transaction: d4e8993318353641b4307543bedfc0871a050fa5742996fdc75b75e2c475d47d  184 bytes  8392 us\nwarn  2018-12-09T05:54:06.018 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:54:06,021 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:54:06,021 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=380 尝试次数=0
+2018-12-09 05:54:06,033 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:54:06,033 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:54:06,033 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:54:06,176 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":64,"game_id":4367,"house_seed":"a76f1cf487b7d50e1f6e630c274be4d3e45891e769ab28c234a36be8e...\n'
+2018-12-09 05:54:06,176 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":66,"game_id":4,"house_seed":"fe4835c463fa69cce5b8bdb27009c4ab667f2b99bf9408c2bd7442690bae...\n'
+2018-12-09 05:54:06,176 connector.py[line:106] INFO stderr =b'executed transaction: 501c6a070be0ad134eeb4a7ff735742d77b5e0f3707508f36dd325c3ef1fb10f  184 bytes  7852 us\nwarn  2018-12-09T05:54:06.149 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:54:06,182 connector.py[line:106] INFO stderr =b'executed transaction: d747be6feb6d3c523aecd8ebf5c0efbd764063a393eae5add32e9f9a995f18e6  184 bytes  7786 us\nwarn  2018-12-09T05:54:06.158 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:54:06,189 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:54:06,209 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:54:06,225 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=570 尝试次数=0
+2018-12-09 05:54:06,225 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":58,"game_id":3062,"house_seed":"b7facdde82d841f7cc94d222b25f6ee9f5bdc4de8b5617f31ac867aa4...\n'
+2018-12-09 05:54:06,236 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=568 尝试次数=0
+2018-12-09 05:54:06,237 connector.py[line:106] INFO stderr =b'executed transaction: 5f846a18c6d76aee69fa91cf40f53784acf6ec33beddacfb98d4f911f1b0f6f3  184 bytes  7687 us\nwarn  2018-12-09T05:54:06.213 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:54:06,265 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:54:06,293 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":55,"game_id":4224,"house_seed":"96969a048fd5bd5224dc1ab8bfe40aa2fc646b0cfab614788c4b6b42b...\n'
+2018-12-09 05:54:06,293 connector.py[line:106] INFO stderr =b'executed transaction: e7da552921b76b31e571eb852a41e3fffaf9e1e0528ad4bab7e05acb6b0d1ecb  184 bytes  10414 us\nwarn  2018-12-09T05:54:06.258 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:54:06,294 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=666 尝试次数=0
+2018-12-09 05:54:06,295 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:54:06,312 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:54:06,333 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=718 尝试次数=0
+2018-12-09 05:54:06,333 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:54:06,343 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:54:06,360 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:54:06,361 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:54:06,368 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:54:06,394 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:54:06,409 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:54:06,429 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:54:06,445 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:54:06,460 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:54:06,508 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:54:06,674 connector.py[line:95] INFO signature 耗时========= 641
+2018-12-09 05:54:06,723 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:54:06,723 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=1089 hash=ff9ca88e123e4cc395d7cad8b67b8c7edcb94ef120db1c8077ba39bf852fc727
+2018-12-09 05:54:07,404 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:54:07,849 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:54:07,941 connector.py[line:95] INFO signature 耗时========= 1581
+2018-12-09 05:54:07,947 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:54:07,957 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=5 hash=c14e39a0a4340bb9d0d90f3636debe3847d184f83bc4ad31da85f5baa0d0d5b5
+2018-12-09 05:54:07,989 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:54:07,995 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=2353 roomid=63 gameid=1088 seed=4bda3d275aa577f5b927aff447709b60c1990ec9e2046c1ca847e5806245b556
+2018-12-09 05:54:08,353 connector.py[line:95] INFO signature 耗时========= 1908
+2018-12-09 05:54:08,359 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:54:08,359 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:54:08,386 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=60 gameid=2682 完成
+2018-12-09 05:54:08,386 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=3063 hash=d12cea24a00cafa2a369d3f0130af1453b5a62c2753d2ba1a2517b68309bf0bf
+2018-12-09 05:54:08,496 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28414 roomid=60 game_id=2682 hash=c39349e8eaa2c8f4a552f092bb30bce203d0b8dfeaca963f0b4031cb15475173 anybody_bet=False
+2018-12-09 05:54:08,518 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:54:08,544 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:54:08,583 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:54:08,583 reveal_service.py[line:110] INFO [async_call_sub] roomid=60 gameid=2682 house_seed=46540a7cbf12fab5d74863aceb8a25005ff6d75314ef0aedf95ab78408ad76b2
+2018-12-09 05:54:08,598 connector.py[line:95] INFO signature 耗时========= 2168
+2018-12-09 05:54:08,623 connector.py[line:95] INFO signature 耗时========= 2280
+2018-12-09 05:54:08,623 reveal_service.py[line:115] INFO reveal=====  room_id=60 game_id=2682 house_seed=46540a7cbf12fab5d74863aceb8a25005ff6d75314ef0aedf95ab78408ad76b2
+2018-12-09 05:54:08,624 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:54:08,625 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=2956 roomid=66 gameid=4 seed=fe4835c463fa69cce5b8bdb27009c4ab667f2b99bf9408c2bd7442690baeeb91
+2018-12-09 05:54:08,624 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:54:08,626 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=4225 hash=2cb0d0f9516229edaa71df66f25b470a8474a3411e1d4e58666448fe34f5fe56
+2018-12-09 05:54:08,624 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:54:08,624 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[60,2682,"46540a7cbf12fab5d74863aceb8a25005ff6d75314ef0aedf95ab78408ad76b2"]' -p ffgamemanage
+2018-12-09 05:54:08,626 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=4368 hash=88aba2ec8a7572700770c3a7be7f5a776201e35339f506e1ad6f75d9f64ecd5f
+2018-12-09 05:54:08,633 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:54:08,634 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:54:08,637 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:54:08,642 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:54:08,642 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=3013 roomid=58 gameid=3062 seed=b7facdde82d841f7cc94d222b25f6ee9f5bdc4de8b5617f31ac867aa4f46484c
+2018-12-09 05:54:08,643 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:54:08,646 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:54:08,647 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:54:08,647 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=3033 roomid=55 gameid=4224 seed=96969a048fd5bd5224dc1ab8bfe40aa2fc646b0cfab614788c4b6b42bedc20f1
+2018-12-09 05:54:08,652 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:54:08,652 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=2997 roomid=64 gameid=4367 seed=a76f1cf487b7d50e1f6e630c274be4d3e45891e769ab28c234a36be8ea9db673
+2018-12-09 05:54:09,061 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":60,"game_id":2682,"house_seed":"46540a7cbf12fab5d74863aceb8a25005ff6d75314ef0aedf95ab7840...\n'
+2018-12-09 05:54:09,061 connector.py[line:106] INFO stderr =b'executed transaction: 7f6977219d02f8e160204bd0500e08e605c9bb8a5b92c94291294c20e3f080a5  184 bytes  11352 us\nwarn  2018-12-09T05:54:09.060 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:54:09,061 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:54:09,061 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=438 尝试次数=0
+2018-12-09 05:54:09,070 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:54:09,070 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:54:09,070 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:54:09,360 connector.py[line:95] INFO signature 耗时========= 289
+2018-12-09 05:54:09,360 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:54:09,360 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=2683 hash=df87a374d107ee015fe3480611173d4b5e30e5ba28535ff1f23b769aa63cfc03
+2018-12-09 05:54:09,371 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:54:09,379 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:54:09,385 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:54:09,385 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=761 roomid=60 gameid=2682 seed=46540a7cbf12fab5d74863aceb8a25005ff6d75314ef0aedf95ab78408ad76b2
+2018-12-09 05:54:27,633 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=68 gameid=2 完成
+2018-12-09 05:54:27,633 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28415 roomid=68 game_id=2 hash=8d6413639c7e8d19f94c0348cc86f271a1ab9c22a107490260707f901b5d4db5 anybody_bet=False
+2018-12-09 05:54:27,634 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:54:27,634 reveal_service.py[line:110] INFO [async_call_sub] roomid=68 gameid=2 house_seed=d24e027717d80f694e7e5891e4fab0f33e5fe677acadd4acad1c9d748e7b884d
+2018-12-09 05:54:27,634 reveal_service.py[line:115] INFO reveal=====  room_id=68 game_id=2 house_seed=d24e027717d80f694e7e5891e4fab0f33e5fe677acadd4acad1c9d748e7b884d
+2018-12-09 05:54:27,634 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[68,2,"d24e027717d80f694e7e5891e4fab0f33e5fe677acadd4acad1c9d748e7b884d"]' -p ffgamemanage
+2018-12-09 05:54:28,065 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":68,"game_id":2,"house_seed":"d24e027717d80f694e7e5891e4fab0f33e5fe677acadd4acad1c9d748e7b...\n'
+2018-12-09 05:54:28,065 connector.py[line:106] INFO stderr =b'executed transaction: 854f1747b111d7e42dae9e3e5f8e27699e494754f8284105a268d6e6b467804a  184 bytes  11002 us\nwarn  2018-12-09T05:54:28.063 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:54:28,065 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:54:28,066 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=432 尝试次数=0
+2018-12-09 05:54:28,073 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:54:28,073 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:54:28,073 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:54:28,564 connector.py[line:95] INFO signature 耗时========= 492
+2018-12-09 05:54:28,565 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:54:28,565 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=3 hash=98ffdd6c349e7caa70f4de6adfd67bc562af5e2739742532ea35475c4aeee568
+2018-12-09 05:54:28,572 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:54:28,578 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:54:28,584 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:54:28,584 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=951 roomid=68 gameid=2 seed=d24e027717d80f694e7e5891e4fab0f33e5fe677acadd4acad1c9d748e7b884d
+2018-12-09 05:54:57,584 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=55 gameid=4225 完成
+2018-12-09 05:54:57,585 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28419 roomid=55 game_id=4225 hash=2cb0d0f9516229edaa71df66f25b470a8474a3411e1d4e58666448fe34f5fe56 anybody_bet=False
+2018-12-09 05:54:57,586 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:54:57,586 reveal_service.py[line:110] INFO [async_call_sub] roomid=55 gameid=4225 house_seed=297f2fbe9a31514e05e23984fa6c509459582006ab13c578060b46416a12ca64
+2018-12-09 05:54:57,586 reveal_service.py[line:115] INFO reveal=====  room_id=55 game_id=4225 house_seed=297f2fbe9a31514e05e23984fa6c509459582006ab13c578060b46416a12ca64
+2018-12-09 05:54:57,586 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[55,4225,"297f2fbe9a31514e05e23984fa6c509459582006ab13c578060b46416a12ca64"]' -p ffgamemanage
+2018-12-09 05:54:57,598 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=58 gameid=3063 完成
+2018-12-09 05:54:57,598 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28418 roomid=58 game_id=3063 hash=d12cea24a00cafa2a369d3f0130af1453b5a62c2753d2ba1a2517b68309bf0bf anybody_bet=False
+2018-12-09 05:54:57,600 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:54:57,600 reveal_service.py[line:110] INFO [async_call_sub] roomid=58 gameid=3063 house_seed=54496d69ebd06693510908f47753ad8f62bcbdca65cf2cdc15c398c1e99ca663
+2018-12-09 05:54:57,600 reveal_service.py[line:115] INFO reveal=====  room_id=58 game_id=3063 house_seed=54496d69ebd06693510908f47753ad8f62bcbdca65cf2cdc15c398c1e99ca663
+2018-12-09 05:54:57,600 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[58,3063,"54496d69ebd06693510908f47753ad8f62bcbdca65cf2cdc15c398c1e99ca663"]' -p ffgamemanage
+2018-12-09 05:54:57,612 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=63 gameid=1089 完成
+2018-12-09 05:54:57,613 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28416 roomid=63 game_id=1089 hash=ff9ca88e123e4cc395d7cad8b67b8c7edcb94ef120db1c8077ba39bf852fc727 anybody_bet=False
+2018-12-09 05:54:57,614 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:54:57,614 reveal_service.py[line:110] INFO [async_call_sub] roomid=63 gameid=1089 house_seed=de79e50365d4ce9d0d22a0971cbf4501ebed1ef6a961fd4ccc0a09df1b8df77b
+2018-12-09 05:54:57,614 reveal_service.py[line:115] INFO reveal=====  room_id=63 game_id=1089 house_seed=de79e50365d4ce9d0d22a0971cbf4501ebed1ef6a961fd4ccc0a09df1b8df77b
+2018-12-09 05:54:57,614 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[63,1089,"de79e50365d4ce9d0d22a0971cbf4501ebed1ef6a961fd4ccc0a09df1b8df77b"]' -p ffgamemanage
+2018-12-09 05:54:57,626 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=64 gameid=4368 完成
+2018-12-09 05:54:57,627 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28420 roomid=64 game_id=4368 hash=88aba2ec8a7572700770c3a7be7f5a776201e35339f506e1ad6f75d9f64ecd5f anybody_bet=False
+2018-12-09 05:54:57,628 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:54:57,628 reveal_service.py[line:110] INFO [async_call_sub] roomid=64 gameid=4368 house_seed=e2c6b5ca22c19a20ddf0865f4dcdec16efaf88a97138e26be5ab8598c6f680c8
+2018-12-09 05:54:57,628 reveal_service.py[line:115] INFO reveal=====  room_id=64 game_id=4368 house_seed=e2c6b5ca22c19a20ddf0865f4dcdec16efaf88a97138e26be5ab8598c6f680c8
+2018-12-09 05:54:57,628 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[64,4368,"e2c6b5ca22c19a20ddf0865f4dcdec16efaf88a97138e26be5ab8598c6f680c8"]' -p ffgamemanage
+2018-12-09 05:54:57,641 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=66 gameid=5 完成
+2018-12-09 05:54:57,642 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28417 roomid=66 game_id=5 hash=c14e39a0a4340bb9d0d90f3636debe3847d184f83bc4ad31da85f5baa0d0d5b5 anybody_bet=False
+2018-12-09 05:54:57,643 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:54:57,643 reveal_service.py[line:110] INFO [async_call_sub] roomid=66 gameid=5 house_seed=8103032e2c8f6d26f3c0f563c9cfc0a64a47a39fe7ac7152a2ba4b41db21182f
+2018-12-09 05:54:57,643 reveal_service.py[line:115] INFO reveal=====  room_id=66 game_id=5 house_seed=8103032e2c8f6d26f3c0f563c9cfc0a64a47a39fe7ac7152a2ba4b41db21182f
+2018-12-09 05:54:57,643 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[66,5,"8103032e2c8f6d26f3c0f563c9cfc0a64a47a39fe7ac7152a2ba4b41db21182f"]' -p ffgamemanage
+2018-12-09 05:54:57,957 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":55,"game_id":4225,"house_seed":"297f2fbe9a31514e05e23984fa6c509459582006ab13c578060b46416...\n'
+2018-12-09 05:54:57,957 connector.py[line:106] INFO stderr =b'executed transaction: 973b05faafda9a5d4fc3032521ae6e2693f4a1718c636d6577cda750853ea125  184 bytes  11289 us\nwarn  2018-12-09T05:54:57.956 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:54:57,957 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:54:57,957 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=372 尝试次数=0
+2018-12-09 05:54:57,967 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:54:57,968 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:54:57,968 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:54:58,089 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":66,"game_id":5,"house_seed":"8103032e2c8f6d26f3c0f563c9cfc0a64a47a39fe7ac7152a2ba4b41db21...\n'
+2018-12-09 05:54:58,100 connector.py[line:106] INFO stderr =b'executed transaction: ae37b29d429748177e46aa58a754610fbaed825062e8bdabbc3560892c9dcc5e  184 bytes  10547 us\nwarn  2018-12-09T05:54:58.073 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:54:58,105 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:54:58,121 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=478 尝试次数=0
+2018-12-09 05:54:58,167 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:54:58,167 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:54:58,167 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:54:58,167 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":58,"game_id":3063,"house_seed":"54496d69ebd06693510908f47753ad8f62bcbdca65cf2cdc15c398c1e...\n'
+2018-12-09 05:54:58,189 connector.py[line:106] INFO stderr =b'executed transaction: cd14b8093de8be82a4a3ee006146a13378b96b4336243ab78931c51daceacc78  184 bytes  8056 us\nwarn  2018-12-09T05:54:58.165 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:54:58,199 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:54:58,215 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":64,"game_id":4368,"house_seed":"e2c6b5ca22c19a20ddf0865f4dcdec16efaf88a97138e26be5ab8598c...\n'
+2018-12-09 05:54:58,241 connector.py[line:106] INFO stderr =b'executed transaction: 7e247c9439884f3aacf8b722719a48419cfc75447e9c1a09924e5fa3020c84f4  184 bytes  10350 us\nwarn  2018-12-09T05:54:58.176 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:54:58,230 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":63,"game_id":1089,"house_seed":"de79e50365d4ce9d0d22a0971cbf4501ebed1ef6a961fd4ccc0a09df1...\n'
+2018-12-09 05:54:58,246 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=647 尝试次数=0
+2018-12-09 05:54:58,375 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:54:58,390 connector.py[line:106] INFO stderr =b'executed transaction: 82f5be675aadaf13bbb83735f41c397c82206a3c5e25e596a73e7d43870800d6  184 bytes  10548 us\nwarn  2018-12-09T05:54:58.193 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:54:58,439 connector.py[line:95] INFO signature 耗时========= 472
+2018-12-09 05:54:58,445 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:54:58,446 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:54:58,446 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=818 尝试次数=0
+2018-12-09 05:54:58,463 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:54:58,485 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:54:58,485 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:54:58,468 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=854 尝试次数=0
+2018-12-09 05:54:58,468 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=4226 hash=e4bcaf900ecc2c28f508b1dc99c6b62f6eb0ac8b155c051bd06ec521a6b72caa
+2018-12-09 05:54:58,595 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:54:58,633 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:54:58,634 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:54:58,634 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:54:58,644 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:54:58,650 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:54:58,655 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:54:59,088 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:54:59,234 connector.py[line:95] INFO signature 耗时========= 749
+2018-12-09 05:54:59,286 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:54:59,291 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=3064 hash=34c66c39bd019ca60f2d11b9c906663939914abc6506cba258b5660e13d7f724
+2018-12-09 05:54:59,302 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:54:59,394 connector.py[line:95] INFO signature 耗时========= 1227
+2018-12-09 05:54:59,427 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=1841 roomid=55 gameid=4225 seed=297f2fbe9a31514e05e23984fa6c509459582006ab13c578060b46416a12ca64
+2018-12-09 05:54:59,427 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:54:59,442 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:54:59,498 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=6 hash=44ccf3fd18609b2fe5f6fe4957c3e85361f235e14206878a172ed2c838d70aa2
+2018-12-09 05:54:59,536 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:54:59,536 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:54:59,570 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:54:59,766 connector.py[line:95] INFO signature 耗时========= 1133
+2018-12-09 05:54:59,772 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=2173 roomid=58 gameid=3063 seed=54496d69ebd06693510908f47753ad8f62bcbdca65cf2cdc15c398c1e99ca663
+2018-12-09 05:54:59,773 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:54:59,811 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=1090 hash=80600a1a366c7bc84d40b763461a61fd56c06ec0e62745023a978f0f0bb26b9e
+2018-12-09 05:54:59,838 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:54:59,866 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:54:59,871 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=2228 roomid=66 gameid=5 seed=8103032e2c8f6d26f3c0f563c9cfc0a64a47a39fe7ac7152a2ba4b41db21182f
+2018-12-09 05:54:59,872 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:54:59,940 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:54:59,969 connector.py[line:95] INFO signature 耗时========= 1319
+2018-12-09 05:54:59,970 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:54:59,971 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:54:59,971 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=2356 roomid=63 gameid=1089 seed=de79e50365d4ce9d0d22a0971cbf4501ebed1ef6a961fd4ccc0a09df1b8df77b
+2018-12-09 05:54:59,971 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=4369 hash=0236dadf87a7e7c90b07b462151a8ccd142e3cb2ae7ac4d9ae245b1547756e4d
+2018-12-09 05:54:59,978 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:54:59,979 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=60 gameid=2683 完成
+2018-12-09 05:54:59,980 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28421 roomid=60 game_id=2683 hash=df87a374d107ee015fe3480611173d4b5e30e5ba28535ff1f23b769aa63cfc03 anybody_bet=False
+2018-12-09 05:54:59,981 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:54:59,981 reveal_service.py[line:110] INFO [async_call_sub] roomid=60 gameid=2683 house_seed=18aac29c531dfed1a8cfa8d57a1470b04dc80e814b2487fa9e1c8f7e44928eaa
+2018-12-09 05:54:59,981 reveal_service.py[line:115] INFO reveal=====  room_id=60 game_id=2683 house_seed=18aac29c531dfed1a8cfa8d57a1470b04dc80e814b2487fa9e1c8f7e44928eaa
+2018-12-09 05:54:59,981 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[60,2683,"18aac29c531dfed1a8cfa8d57a1470b04dc80e814b2487fa9e1c8f7e44928eaa"]' -p ffgamemanage
+2018-12-09 05:54:59,986 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:54:59,992 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:54:59,993 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=2364 roomid=64 gameid=4368 seed=e2c6b5ca22c19a20ddf0865f4dcdec16efaf88a97138e26be5ab8598c6f680c8
+2018-12-09 05:55:00,433 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":60,"game_id":2683,"house_seed":"18aac29c531dfed1a8cfa8d57a1470b04dc80e814b2487fa9e1c8f7e4...\n'
+2018-12-09 05:55:00,433 connector.py[line:106] INFO stderr =b'executed transaction: e4746f90792b89f6298a375468421042648281762ceb311d03d7cd9e851bf7ed  184 bytes  9785 us\nwarn  2018-12-09T05:55:00.432 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:55:00,433 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:55:00,434 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=453 尝试次数=0
+2018-12-09 05:55:00,443 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:55:00,443 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:55:00,443 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:55:00,735 connector.py[line:95] INFO signature 耗时========= 292
+2018-12-09 05:55:00,736 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:55:00,736 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=2684 hash=f5d779318e5da490d103276a1da4b74017c48e2750fc978f50330bfc41a196de
+2018-12-09 05:55:00,742 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:55:00,750 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:55:00,758 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:55:00,758 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=777 roomid=60 gameid=2683 seed=18aac29c531dfed1a8cfa8d57a1470b04dc80e814b2487fa9e1c8f7e44928eaa
+2018-12-09 05:55:10,478 seed_service.py[line:30] INFO room_id = 58
+2018-12-09 05:55:10,478 seed_service.py[line:31] INFO game_id = 3064
+2018-12-09 05:55:10,482 seed_service.py[line:39] INFO m.room_id = 58
+2018-12-09 05:55:10,483 seed_service.py[line:40] INFO m.game_id = 3064
+2018-12-09 05:55:10,483 _internal.py[line:88] INFO 127.0.0.1 - - [09/Dec/2018 05:55:10] "GET /api/baccarat/get_seed?room_id=58&game_id=3064&_=t1544334910306 HTTP/1.0" 200 -
+2018-12-09 05:55:11,760 seed_service.py[line:30] INFO room_id = 55
+2018-12-09 05:55:11,760 seed_service.py[line:31] INFO game_id = 4226
+2018-12-09 05:55:11,764 seed_service.py[line:39] INFO m.room_id = 55
+2018-12-09 05:55:11,764 seed_service.py[line:40] INFO m.game_id = 4226
+2018-12-09 05:55:11,764 _internal.py[line:88] INFO 127.0.0.1 - - [09/Dec/2018 05:55:11] "GET /api/baccarat/get_seed?room_id=55&game_id=4226&_=t1544334911593 HTTP/1.0" 200 -
+2018-12-09 05:55:19,618 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=68 gameid=3 完成
+2018-12-09 05:55:19,619 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28422 roomid=68 game_id=3 hash=98ffdd6c349e7caa70f4de6adfd67bc562af5e2739742532ea35475c4aeee568 anybody_bet=False
+2018-12-09 05:55:19,619 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:55:19,619 reveal_service.py[line:110] INFO [async_call_sub] roomid=68 gameid=3 house_seed=35aa0cc81f7c596e76ab2346b9ce5dbc67411395c4d1d928168eac7ed740e746
+2018-12-09 05:55:19,619 reveal_service.py[line:115] INFO reveal=====  room_id=68 game_id=3 house_seed=35aa0cc81f7c596e76ab2346b9ce5dbc67411395c4d1d928168eac7ed740e746
+2018-12-09 05:55:19,619 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[68,3,"35aa0cc81f7c596e76ab2346b9ce5dbc67411395c4d1d928168eac7ed740e746"]' -p ffgamemanage
+2018-12-09 05:55:19,996 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":68,"game_id":3,"house_seed":"35aa0cc81f7c596e76ab2346b9ce5dbc67411395c4d1d928168eac7ed740...\n'
+2018-12-09 05:55:19,996 connector.py[line:106] INFO stderr =b'executed transaction: 35cd3ce86bb65658cc3dc712f59c4bba2d9279f1003ee71797d44dfb4d30a53e  184 bytes  10307 us\nwarn  2018-12-09T05:55:19.995 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:55:19,996 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:55:19,996 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=377 尝试次数=0
+2018-12-09 05:55:20,006 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:55:20,006 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:55:20,006 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:55:20,439 connector.py[line:95] INFO signature 耗时========= 433
+2018-12-09 05:55:20,439 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:55:20,439 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=4 hash=d05cb069035a1bd3b73d69e41f63fef03146efe7723444f5fcf681f24e54b703
+2018-12-09 05:55:20,447 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:55:20,454 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:55:20,459 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:55:20,459 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=840 roomid=68 gameid=3 seed=35aa0cc81f7c596e76ab2346b9ce5dbc67411395c4d1d928168eac7ed740e746
+2018-12-09 05:55:49,180 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=55 gameid=4226 完成
+2018-12-09 05:55:49,180 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28423 roomid=55 game_id=4226 hash=e4bcaf900ecc2c28f508b1dc99c6b62f6eb0ac8b155c051bd06ec521a6b72caa anybody_bet=False
+2018-12-09 05:55:49,181 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:55:49,181 reveal_service.py[line:110] INFO [async_call_sub] roomid=55 gameid=4226 house_seed=7c856a0adb5c74d47257da1db12987ed339a72aeb70db7739a67d4048e256a88
+2018-12-09 05:55:49,181 reveal_service.py[line:115] INFO reveal=====  room_id=55 game_id=4226 house_seed=7c856a0adb5c74d47257da1db12987ed339a72aeb70db7739a67d4048e256a88
+2018-12-09 05:55:49,181 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[55,4226,"7c856a0adb5c74d47257da1db12987ed339a72aeb70db7739a67d4048e256a88"]' -p ffgamemanage
+2018-12-09 05:55:49,667 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=58 gameid=3064 完成
+2018-12-09 05:55:49,667 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28424 roomid=58 game_id=3064 hash=34c66c39bd019ca60f2d11b9c906663939914abc6506cba258b5660e13d7f724 anybody_bet=False
+2018-12-09 05:55:49,667 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:55:49,668 reveal_service.py[line:110] INFO [async_call_sub] roomid=58 gameid=3064 house_seed=4db202f7817b98a7c36964df39477e29ce5cd456b5e24930464b9e2550e948ff
+2018-12-09 05:55:49,668 reveal_service.py[line:115] INFO reveal=====  room_id=58 game_id=3064 house_seed=4db202f7817b98a7c36964df39477e29ce5cd456b5e24930464b9e2550e948ff
+2018-12-09 05:55:49,668 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[58,3064,"4db202f7817b98a7c36964df39477e29ce5cd456b5e24930464b9e2550e948ff"]' -p ffgamemanage
+2018-12-09 05:55:49,680 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=63 gameid=1090 完成
+2018-12-09 05:55:49,681 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28426 roomid=63 game_id=1090 hash=80600a1a366c7bc84d40b763461a61fd56c06ec0e62745023a978f0f0bb26b9e anybody_bet=False
+2018-12-09 05:55:49,681 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:55:49,682 reveal_service.py[line:110] INFO [async_call_sub] roomid=63 gameid=1090 house_seed=c6b1c3a4a07b750997dbbffe4d87f911e704a8762bfbd7c94077f00b1088e6b9
+2018-12-09 05:55:49,682 reveal_service.py[line:115] INFO reveal=====  room_id=63 game_id=1090 house_seed=c6b1c3a4a07b750997dbbffe4d87f911e704a8762bfbd7c94077f00b1088e6b9
+2018-12-09 05:55:49,682 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[63,1090,"c6b1c3a4a07b750997dbbffe4d87f911e704a8762bfbd7c94077f00b1088e6b9"]' -p ffgamemanage
+2018-12-09 05:55:49,693 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":55,"game_id":4226,"house_seed":"7c856a0adb5c74d47257da1db12987ed339a72aeb70db7739a67d4048...\n'
+2018-12-09 05:55:49,694 connector.py[line:106] INFO stderr =b'executed transaction: 3dde2b7c43bf43c62cbb7f653516cdc92bd96852c8645b3d29ac776f8cd5dcd0  184 bytes  9669 us\nwarn  2018-12-09T05:55:49.692 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:55:49,694 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:55:49,694 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=512 尝试次数=0
+2018-12-09 05:55:49,697 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=64 gameid=4369 完成
+2018-12-09 05:55:49,697 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28427 roomid=64 game_id=4369 hash=0236dadf87a7e7c90b07b462151a8ccd142e3cb2ae7ac4d9ae245b1547756e4d anybody_bet=False
+2018-12-09 05:55:49,698 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:55:49,698 reveal_service.py[line:110] INFO [async_call_sub] roomid=64 gameid=4369 house_seed=e03fa694789bc5c2d9c0c24d40eea3db3c5ac7566e18b86ee6af57cadd394fd3
+2018-12-09 05:55:49,698 reveal_service.py[line:115] INFO reveal=====  room_id=64 game_id=4369 house_seed=e03fa694789bc5c2d9c0c24d40eea3db3c5ac7566e18b86ee6af57cadd394fd3
+2018-12-09 05:55:49,699 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[64,4369,"e03fa694789bc5c2d9c0c24d40eea3db3c5ac7566e18b86ee6af57cadd394fd3"]' -p ffgamemanage
+2018-12-09 05:55:49,707 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:55:49,707 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:55:49,708 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:55:49,726 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=66 gameid=6 完成
+2018-12-09 05:55:49,747 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28425 roomid=66 game_id=6 hash=44ccf3fd18609b2fe5f6fe4957c3e85361f235e14206878a172ed2c838d70aa2 anybody_bet=False
+2018-12-09 05:55:49,749 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:55:49,754 reveal_service.py[line:110] INFO [async_call_sub] roomid=66 gameid=6 house_seed=a3a343580a3d53ad2091cb65ad1300a5521e91961d4dff3cb7c7878365c1b08f
+2018-12-09 05:55:49,759 reveal_service.py[line:115] INFO reveal=====  room_id=66 game_id=6 house_seed=a3a343580a3d53ad2091cb65ad1300a5521e91961d4dff3cb7c7878365c1b08f
+2018-12-09 05:55:49,764 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[66,6,"a3a343580a3d53ad2091cb65ad1300a5521e91961d4dff3cb7c7878365c1b08f"]' -p ffgamemanage
+2018-12-09 05:55:49,994 connector.py[line:95] INFO signature 耗时========= 287
+2018-12-09 05:55:49,995 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:55:49,995 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=4227 hash=30bbc6ba815e6213aa8c9e642f76a7bbd5a60dd0f5c2b379ad72a651ed15129b
+2018-12-09 05:55:50,005 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:55:50,012 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:55:50,018 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:55:50,018 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=836 roomid=55 gameid=4226 seed=7c856a0adb5c74d47257da1db12987ed339a72aeb70db7739a67d4048e256a88
+2018-12-09 05:55:50,072 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":63,"game_id":1090,"house_seed":"c6b1c3a4a07b750997dbbffe4d87f911e704a8762bfbd7c94077f00b1...\n'
+2018-12-09 05:55:50,072 connector.py[line:106] INFO stderr =b'executed transaction: cd04b2fc517212922c0d5730b3973ec22ea98d7e9d66b6ba618fb0774d0dddb8  184 bytes  8424 us\nwarn  2018-12-09T05:55:50.071 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:55:50,072 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:55:50,073 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=391 尝试次数=0
+2018-12-09 05:55:50,079 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:55:50,079 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:55:50,079 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:55:50,227 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":64,"game_id":4369,"house_seed":"e03fa694789bc5c2d9c0c24d40eea3db3c5ac7566e18b86ee6af57cad...\n'
+2018-12-09 05:55:50,237 connector.py[line:106] INFO stderr =b'executed transaction: ef4f7e3dc0d6b9f5ec232be6faad0f807b436c9bd7c2cccfb04e6cdb6acec4cc  184 bytes  10909 us\nwarn  2018-12-09T05:55:50.200 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:55:50,247 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:55:50,258 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=559 尝试次数=0
+2018-12-09 05:55:50,319 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":58,"game_id":3064,"house_seed":"4db202f7817b98a7c36964df39477e29ce5cd456b5e24930464b9e255...\n'
+2018-12-09 05:55:50,331 connector.py[line:106] INFO stderr =b'executed transaction: 071f0fe8bef4df1aa4842010d2bdd4851c3b8f9648f95de0c4c44176748000f6  184 bytes  11139 us\nwarn  2018-12-09T05:55:50.274 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:55:50,336 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:55:50,336 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":66,"game_id":6,"house_seed":"a3a343580a3d53ad2091cb65ad1300a5521e91961d4dff3cb7c7878365c1...\n'
+2018-12-09 05:55:50,348 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=680 尝试次数=0
+2018-12-09 05:55:50,358 connector.py[line:106] INFO stderr =b'executed transaction: f285aa31bbafa7c50bcb20c26159ca3235416c75da2805d61c9294773490ea9c  184 bytes  7753 us\nwarn  2018-12-09T05:55:50.319 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:55:50,365 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:55:50,370 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=611 尝试次数=0
+2018-12-09 05:55:50,386 connector.py[line:95] INFO signature 耗时========= 307
+2018-12-09 05:55:50,386 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:55:50,388 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:55:50,389 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:55:50,390 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=1091 hash=a5b2e90942a3e5d5048a1c4ed1bbfff63474d61c7de98d85848cd81bf8e8f9b7
+2018-12-09 05:55:50,390 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:55:50,402 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:55:50,408 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:55:50,408 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:55:50,408 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:55:50,413 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:55:50,418 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:55:50,471 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:55:51,070 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:55:51,164 connector.py[line:95] INFO signature 耗时========= 751
+2018-12-09 05:55:51,192 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:55:51,197 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:55:51,212 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=1531 roomid=63 gameid=1090 seed=c6b1c3a4a07b750997dbbffe4d87f911e704a8762bfbd7c94077f00b1088e6b9
+2018-12-09 05:55:51,228 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=7 hash=cedac72bb3cc3b40988942586679dca00af284aef05bb24de0da372287370a91
+2018-12-09 05:55:51,603 connector.py[line:95] INFO signature 耗时========= 1213
+2018-12-09 05:55:51,614 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:55:51,620 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:55:51,620 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=4370 hash=d17d1d8e56ab3c3041980283cfae1732718a0d7674fc68020d1ee14d58caf41f
+2018-12-09 05:55:51,723 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:55:51,739 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:55:51,814 connector.py[line:95] INFO signature 耗时========= 1396
+2018-12-09 05:55:51,815 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:55:51,815 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:55:51,815 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:55:51,816 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=3065 hash=3cd7ed1b8eed45dd707336f68cc96c45cdcac4837e679b187d1ff23bad4205a5
+2018-12-09 05:55:51,816 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=2057 roomid=66 gameid=6 seed=a3a343580a3d53ad2091cb65ad1300a5521e91961d4dff3cb7c7878365c1b08f
+2018-12-09 05:55:51,822 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:55:51,823 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:55:51,824 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=2125 roomid=64 gameid=4369 seed=e03fa694789bc5c2d9c0c24d40eea3db3c5ac7566e18b86ee6af57cadd394fd3
+2018-12-09 05:55:51,830 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:55:51,835 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:55:51,835 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=2168 roomid=58 gameid=3064 seed=4db202f7817b98a7c36964df39477e29ce5cd456b5e24930464b9e2550e948ff
+2018-12-09 05:55:56,102 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=60 gameid=2684 完成
+2018-12-09 05:55:56,102 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28428 roomid=60 game_id=2684 hash=f5d779318e5da490d103276a1da4b74017c48e2750fc978f50330bfc41a196de anybody_bet=False
+2018-12-09 05:55:56,103 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:55:56,103 reveal_service.py[line:110] INFO [async_call_sub] roomid=60 gameid=2684 house_seed=418864c6639d735487ca97a9336f59c6a06b26ea99d84fe8c446187cd9d60a0e
+2018-12-09 05:55:56,103 reveal_service.py[line:115] INFO reveal=====  room_id=60 game_id=2684 house_seed=418864c6639d735487ca97a9336f59c6a06b26ea99d84fe8c446187cd9d60a0e
+2018-12-09 05:55:56,103 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[60,2684,"418864c6639d735487ca97a9336f59c6a06b26ea99d84fe8c446187cd9d60a0e"]' -p ffgamemanage
+2018-12-09 05:55:56,461 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":60,"game_id":2684,"house_seed":"418864c6639d735487ca97a9336f59c6a06b26ea99d84fe8c446187cd...\n'
+2018-12-09 05:55:56,461 connector.py[line:106] INFO stderr =b'executed transaction: 8f7d08d84bb3b483ab15fedc19de3fe393cfd9050c6993cbd1a2f26e169cfe6e  184 bytes  11073 us\nwarn  2018-12-09T05:55:56.459 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:55:56,461 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:55:56,461 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=357 尝试次数=0
+2018-12-09 05:55:56,470 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:55:56,470 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:55:56,470 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:55:56,933 connector.py[line:95] INFO signature 耗时========= 463
+2018-12-09 05:55:56,933 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:55:56,934 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=2685 hash=a96e5546af7d5bcec59efb478e1f86666080baf66a2fdc6ab2b2c0dc1e90c41e
+2018-12-09 05:55:56,939 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:55:56,948 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:55:56,954 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:55:56,954 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=850 roomid=60 gameid=2684 seed=418864c6639d735487ca97a9336f59c6a06b26ea99d84fe8c446187cd9d60a0e
+2018-12-09 05:56:11,083 reveal_service.py[line:81] INFO [process] 状态更新为开奖中 roomid=68 gameid=4 完成
+2018-12-09 05:56:11,084 reveal_service.py[line:99] INFO [async_call_sub] 开始 id=28429 roomid=68 game_id=4 hash=d05cb069035a1bd3b73d69e41f63fef03146efe7723444f5fcf681f24e54b703 anybody_bet=False
+2018-12-09 05:56:11,084 reveal_service.py[line:106] INFO [async_call_sub] go===
+2018-12-09 05:56:11,084 reveal_service.py[line:110] INFO [async_call_sub] roomid=68 gameid=4 house_seed=12d8b2252726780640924b51f581b71b4b803a374635185031659c0cefe0404b
+2018-12-09 05:56:11,084 reveal_service.py[line:115] INFO reveal=====  room_id=68 game_id=4 house_seed=12d8b2252726780640924b51f581b71b4b803a374635185031659c0cefe0404b
+2018-12-09 05:56:11,084 connector.py[line:102] INFO cmd=cleos -u http://api-kylin.eosasia.one push action ffgamebacara reveal '[68,4,"12d8b2252726780640924b51f581b71b4b803a374635185031659c0cefe0404b"]' -p ffgamemanage
+2018-12-09 05:56:11,627 connector.py[line:105] INFO stdout =b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":68,"game_id":4,"house_seed":"12d8b2252726780640924b51f581b71b4b803a374635185031659c0cefe0...\n'
+2018-12-09 05:56:11,627 connector.py[line:106] INFO stderr =b'executed transaction: f12d8e75acc0417412ff2403682c7d147c26008a07d78d921bfd661ab298f50f  184 bytes  9559 us\nwarn  2018-12-09T05:56:11.626 thread-0  main.cpp:482                  print_result         ] \rwarning: transaction executed locally, but may not be confirmed by the network yet\n'
+2018-12-09 05:56:11,628 connector.py[line:108] INFO exit_code=0
+2018-12-09 05:56:11,628 reveal_service.py[line:121] INFO [async_call_sub] 开奖完成 耗时=543 尝试次数=0
+2018-12-09 05:56:11,636 reveal_service.py[line:123] INFO [async_call_sub] update_seed
+2018-12-09 05:56:11,636 connector.py[line:93] INFO  hashlib.sha256 耗时========= 0
+2018-12-09 05:56:11,636 keys.py[line:157] INFO unhexlify 耗时========= 0
+2018-12-09 05:56:12,161 connector.py[line:95] INFO signature 耗时========= 525
+2018-12-09 05:56:12,161 reveal_service.py[line:127] INFO [async_call_sub] generate_seed_model 完成
+2018-12-09 05:56:12,161 reveal_service.py[line:128] INFO [async_call_sub] 新的哈希 game_id=5 hash=534173854cda6f620211da9525754615d4ea1621c2061856d916e667e50efc23
+2018-12-09 05:56:12,170 reveal_service.py[line:132] INFO [async_call_sub] create_discard AND insert_seed 完成
+2018-12-09 05:56:12,178 reveal_service.py[line:135] INFO [async_call_sub] delete_seed 完成
+2018-12-09 05:56:12,184 reveal_service.py[line:137] INFO [async_call_sub] insert_seed 完成
+2018-12-09 05:56:12,185 reveal_service.py[line:139] INFO [async_call_sub] 开奖完成 耗时=1100 roomid=68 gameid=4 seed=12d8b2252726780640924b51f581b71b4b803a374635185031659c0cefe0404b

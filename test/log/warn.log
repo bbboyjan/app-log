@@ -1,0 +1,284 @@
+2018-12-09 05:52:21,914 reveal_service.py[line:85] WARNING [process] 添加 roomid 55
+2018-12-09 05:52:21,929 reveal_service.py[line:85] WARNING [process] 添加 roomid 58
+2018-12-09 05:52:21,943 reveal_service.py[line:85] WARNING [process] 添加 roomid 60
+2018-12-09 05:52:21,961 reveal_service.py[line:85] WARNING [process] 添加 roomid 63
+2018-12-09 05:52:21,977 reveal_service.py[line:85] WARNING [process] 添加 roomid 64
+2018-12-09 05:52:21,991 reveal_service.py[line:85] WARNING [process] 添加 roomid 66
+2018-12-09 05:52:22,074 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4222
+2018-12-09 05:52:22,074 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3060
+2018-12-09 05:52:22,074 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2680
+2018-12-09 05:52:22,074 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=63 game=1086
+2018-12-09 05:52:22,074 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4365
+2018-12-09 05:52:22,074 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=2
+2018-12-09 05:52:22,160 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4222
+2018-12-09 05:52:22,160 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3060
+2018-12-09 05:52:22,160 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2680
+2018-12-09 05:52:22,160 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=63 game=1086
+2018-12-09 05:52:22,160 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4365
+2018-12-09 05:52:22,160 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=2
+2018-12-09 05:52:22,242 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4222
+2018-12-09 05:52:22,242 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3060
+2018-12-09 05:52:22,242 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2680
+2018-12-09 05:52:22,242 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=63 game=1086
+2018-12-09 05:52:22,242 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4365
+2018-12-09 05:52:22,242 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=2
+2018-12-09 05:52:22,326 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4222
+2018-12-09 05:52:22,326 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3060
+2018-12-09 05:52:22,326 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2680
+2018-12-09 05:52:22,326 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=63 game=1086
+2018-12-09 05:52:22,326 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4365
+2018-12-09 05:52:22,326 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=2
+2018-12-09 05:52:22,343 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":64,"game_id":4365,"house_seed":"66dd892499287571350b141b3abae3b3afae24a2fefae764a78c75348...\n'
+2018-12-09 05:52:22,400 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":55,"game_id":4222,"house_seed":"3f18fa8aefc61f096272dec0a4c2bef6f30803b79d3b2f3498bb99e43...\n'
+2018-12-09 05:52:22,431 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2680
+2018-12-09 05:52:22,447 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=2
+2018-12-09 05:52:22,474 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":58,"game_id":3060,"house_seed":"5fc4356242839668f6e1daeecc7759e9ed169824168ad4a005c64b538...\n'
+2018-12-09 05:52:22,530 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":63,"game_id":1086,"house_seed":"1d25694ee9e25333a189df01e17f63d064fff19b16f6c2738e6e951be...\n'
+2018-12-09 05:52:22,540 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":66,"game_id":2,"house_seed":"69e5e011c27aab58d478b907765c23037271938aba17ee6935f0f68bf70b...\n'
+2018-12-09 05:52:22,595 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":60,"game_id":2680,"house_seed":"b8cb13cd51a206253fdddcb52252ee06644662bfadbd33ae1f029e3bf...\n'
+2018-12-09 05:52:24,473 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 55
+2018-12-09 05:52:24,490 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:52:24,514 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 63
+2018-12-09 05:52:24,514 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:52:24,554 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 64
+2018-12-09 05:52:24,559 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:52:24,683 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 60
+2018-12-09 05:52:24,693 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:52:24,709 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 58
+2018-12-09 05:52:24,724 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:52:25,149 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 66
+2018-12-09 05:52:25,149 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:52:44,193 reveal_service.py[line:224] WARNING 〓TRY_DISCARD〓 尝试从丢弃的种子表获取 roomid=67 gameid=38
+2018-12-09 05:52:44,273 reveal_service.py[line:227] WARNING 〓TRY_DISCARD〓 从区块链 hash 表获取数据为空 无人下注 roomid=67
+2018-12-09 05:52:44,283 reveal_service.py[line:232] WARNING 〓TRY_DISCARD〓 修改game_id完成
+2018-12-09 05:53:13,610 reveal_service.py[line:85] WARNING [process] 添加 roomid 55
+2018-12-09 05:53:13,624 reveal_service.py[line:85] WARNING [process] 添加 roomid 58
+2018-12-09 05:53:13,638 reveal_service.py[line:85] WARNING [process] 添加 roomid 63
+2018-12-09 05:53:13,650 reveal_service.py[line:85] WARNING [process] 添加 roomid 64
+2018-12-09 05:53:13,667 reveal_service.py[line:85] WARNING [process] 添加 roomid 66
+2018-12-09 05:53:13,753 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4223
+2018-12-09 05:53:13,753 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3061
+2018-12-09 05:53:13,753 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=63 game=1087
+2018-12-09 05:53:13,753 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4366
+2018-12-09 05:53:13,753 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=3
+2018-12-09 05:53:13,834 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4223
+2018-12-09 05:53:13,834 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3061
+2018-12-09 05:53:13,834 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=63 game=1087
+2018-12-09 05:53:13,834 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4366
+2018-12-09 05:53:13,834 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=3
+2018-12-09 05:53:13,919 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4223
+2018-12-09 05:53:13,919 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3061
+2018-12-09 05:53:13,919 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=63 game=1087
+2018-12-09 05:53:13,919 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4366
+2018-12-09 05:53:13,919 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=3
+2018-12-09 05:53:14,009 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4223
+2018-12-09 05:53:14,010 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3061
+2018-12-09 05:53:14,010 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=63 game=1087
+2018-12-09 05:53:14,010 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4366
+2018-12-09 05:53:14,010 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=3
+2018-12-09 05:53:14,064 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":55,"game_id":4223,"house_seed":"657ebb8fea6a34448ffa3e63b6296d4e0d1f601de8318985f284112a7...\n'
+2018-12-09 05:53:14,070 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":58,"game_id":3061,"house_seed":"7bed07b869512324b8ec270e2ca7790315090804a0651ba1b2dfa2f4b...\n'
+2018-12-09 05:53:14,175 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":63,"game_id":1087,"house_seed":"b373d84398c44def9461fee62fa128672cdd06c7f8db373ab5fb19e33...\n'
+2018-12-09 05:53:14,634 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":64,"game_id":4366,"house_seed":"85e0a0070c1427906a3abf97e8064fc1301d568a6dd482d7f2cc691c2...\n'
+2018-12-09 05:53:14,650 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":66,"game_id":3,"house_seed":"e64b08337fe6141b16a63be86705eac80b0aee70892e14f6f2121898ce87...\n'
+2018-12-09 05:53:14,746 reveal_service.py[line:85] WARNING [process] 添加 roomid 60
+2018-12-09 05:53:14,760 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=3
+2018-12-09 05:53:14,924 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2681
+2018-12-09 05:53:15,365 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2681
+2018-12-09 05:53:15,395 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 55
+2018-12-09 05:53:15,395 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:53:15,511 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2681
+2018-12-09 05:53:15,517 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 58
+2018-12-09 05:53:15,548 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:53:15,749 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2681
+2018-12-09 05:53:15,871 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 63
+2018-12-09 05:53:15,871 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:53:15,872 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":60,"game_id":2681,"house_seed":"b79b04a814b6b80e63261c218a5ccf2e9535856dd81bc9e2be3860298...\n'
+2018-12-09 05:53:15,965 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 64
+2018-12-09 05:53:15,965 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:53:16,285 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 66
+2018-12-09 05:53:16,286 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:53:16,443 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 60
+2018-12-09 05:53:16,443 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:53:35,714 reveal_service.py[line:66] WARNING [process] 添加（frist） roomid 68
+2018-12-09 05:53:35,802 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=68 game=1
+2018-12-09 05:53:35,887 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=68 game=1
+2018-12-09 05:53:35,970 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=68 game=1
+2018-12-09 05:53:36,065 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=68 game=1
+2018-12-09 05:53:36,151 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=68 game=1
+2018-12-09 05:53:36,237 connector.py[line:24] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":68,"game_id":1,"house_seed":"a479f8a9f9e459d048397957e07e0f1b51d562ffa10928be1a37b98ba6dc...\n'
+2018-12-09 05:53:37,023 reveal_service.py[line:172] WARNING [ASYNC_PROCESS_FRIST] 移除 roomid 68
+2018-12-09 05:53:37,023 reveal_service.py[line:173] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:54:05,613 reveal_service.py[line:85] WARNING [process] 添加 roomid 55
+2018-12-09 05:54:05,627 reveal_service.py[line:85] WARNING [process] 添加 roomid 58
+2018-12-09 05:54:05,640 reveal_service.py[line:85] WARNING [process] 添加 roomid 63
+2018-12-09 05:54:05,653 reveal_service.py[line:85] WARNING [process] 添加 roomid 64
+2018-12-09 05:54:05,667 reveal_service.py[line:85] WARNING [process] 添加 roomid 66
+2018-12-09 05:54:05,768 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4224
+2018-12-09 05:54:05,768 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3062
+2018-12-09 05:54:05,768 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=63 game=1088
+2018-12-09 05:54:05,768 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4367
+2018-12-09 05:54:05,768 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=4
+2018-12-09 05:54:05,852 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4224
+2018-12-09 05:54:05,852 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3062
+2018-12-09 05:54:05,852 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=63 game=1088
+2018-12-09 05:54:05,852 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4367
+2018-12-09 05:54:05,852 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=4
+2018-12-09 05:54:05,935 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4224
+2018-12-09 05:54:05,935 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3062
+2018-12-09 05:54:05,935 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=63 game=1088
+2018-12-09 05:54:05,935 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4367
+2018-12-09 05:54:05,935 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=4
+2018-12-09 05:54:06,019 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4224
+2018-12-09 05:54:06,019 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3062
+2018-12-09 05:54:06,019 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4367
+2018-12-09 05:54:06,019 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=4
+2018-12-09 05:54:06,021 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":63,"game_id":1088,"house_seed":"4bda3d275aa577f5b927aff447709b60c1990ec9e2046c1ca847e5806...\n'
+2018-12-09 05:54:06,117 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4224
+2018-12-09 05:54:06,122 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3062
+2018-12-09 05:54:06,128 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4367
+2018-12-09 05:54:06,133 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=4
+2018-12-09 05:54:06,219 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":64,"game_id":4367,"house_seed":"a76f1cf487b7d50e1f6e630c274be4d3e45891e769ab28c234a36be8e...\n'
+2018-12-09 05:54:06,225 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":66,"game_id":4,"house_seed":"fe4835c463fa69cce5b8bdb27009c4ab667f2b99bf9408c2bd7442690bae...\n'
+2018-12-09 05:54:06,292 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":58,"game_id":3062,"house_seed":"b7facdde82d841f7cc94d222b25f6ee9f5bdc4de8b5617f31ac867aa4...\n'
+2018-12-09 05:54:06,332 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":55,"game_id":4224,"house_seed":"96969a048fd5bd5224dc1ab8bfe40aa2fc646b0cfab614788c4b6b42b...\n'
+2018-12-09 05:54:08,000 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 63
+2018-12-09 05:54:08,016 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:54:08,464 reveal_service.py[line:85] WARNING [process] 添加 roomid 60
+2018-12-09 05:54:08,625 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 66
+2018-12-09 05:54:08,626 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:54:08,642 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 58
+2018-12-09 05:54:08,642 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:54:08,647 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 55
+2018-12-09 05:54:08,647 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:54:08,652 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 64
+2018-12-09 05:54:08,652 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:54:08,677 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2682
+2018-12-09 05:54:08,764 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2682
+2018-12-09 05:54:08,857 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2682
+2018-12-09 05:54:08,941 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2682
+2018-12-09 05:54:09,030 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2682
+2018-12-09 05:54:09,061 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":60,"game_id":2682,"house_seed":"46540a7cbf12fab5d74863aceb8a25005ff6d75314ef0aedf95ab7840...\n'
+2018-12-09 05:54:09,385 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 60
+2018-12-09 05:54:09,385 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:54:27,633 reveal_service.py[line:85] WARNING [process] 添加 roomid 68
+2018-12-09 05:54:27,717 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=68 game=2
+2018-12-09 05:54:27,802 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=68 game=2
+2018-12-09 05:54:27,895 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=68 game=2
+2018-12-09 05:54:27,977 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=68 game=2
+2018-12-09 05:54:28,065 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":68,"game_id":2,"house_seed":"d24e027717d80f694e7e5891e4fab0f33e5fe677acadd4acad1c9d748e7b...\n'
+2018-12-09 05:54:28,584 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 68
+2018-12-09 05:54:28,584 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:54:57,584 reveal_service.py[line:85] WARNING [process] 添加 roomid 55
+2018-12-09 05:54:57,598 reveal_service.py[line:85] WARNING [process] 添加 roomid 58
+2018-12-09 05:54:57,612 reveal_service.py[line:85] WARNING [process] 添加 roomid 63
+2018-12-09 05:54:57,626 reveal_service.py[line:85] WARNING [process] 添加 roomid 64
+2018-12-09 05:54:57,641 reveal_service.py[line:85] WARNING [process] 添加 roomid 66
+2018-12-09 05:54:57,727 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4225
+2018-12-09 05:54:57,727 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3063
+2018-12-09 05:54:57,727 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=63 game=1089
+2018-12-09 05:54:57,727 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4368
+2018-12-09 05:54:57,727 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=5
+2018-12-09 05:54:57,811 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4225
+2018-12-09 05:54:57,811 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3063
+2018-12-09 05:54:57,811 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=63 game=1089
+2018-12-09 05:54:57,811 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4368
+2018-12-09 05:54:57,811 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=5
+2018-12-09 05:54:57,895 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4225
+2018-12-09 05:54:57,895 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3063
+2018-12-09 05:54:57,895 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=63 game=1089
+2018-12-09 05:54:57,895 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4368
+2018-12-09 05:54:57,895 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=5
+2018-12-09 05:54:57,957 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":55,"game_id":4225,"house_seed":"297f2fbe9a31514e05e23984fa6c509459582006ab13c578060b46416...\n'
+2018-12-09 05:54:57,990 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3063
+2018-12-09 05:54:57,995 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=63 game=1089
+2018-12-09 05:54:58,001 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4368
+2018-12-09 05:54:58,006 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=5
+2018-12-09 05:54:58,110 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":66,"game_id":5,"house_seed":"8103032e2c8f6d26f3c0f563c9cfc0a64a47a39fe7ac7152a2ba4b41db21...\n'
+2018-12-09 05:54:58,121 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3063
+2018-12-09 05:54:58,160 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=63 game=1089
+2018-12-09 05:54:58,167 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4368
+2018-12-09 05:54:58,225 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":58,"game_id":3063,"house_seed":"54496d69ebd06693510908f47753ad8f62bcbdca65cf2cdc15c398c1e...\n'
+2018-12-09 05:54:58,430 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":64,"game_id":4368,"house_seed":"e2c6b5ca22c19a20ddf0865f4dcdec16efaf88a97138e26be5ab8598c...\n'
+2018-12-09 05:54:58,463 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":63,"game_id":1089,"house_seed":"de79e50365d4ce9d0d22a0971cbf4501ebed1ef6a961fd4ccc0a09df1...\n'
+2018-12-09 05:54:59,458 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 55
+2018-12-09 05:54:59,474 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:54:59,794 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 58
+2018-12-09 05:54:59,811 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:54:59,882 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 66
+2018-12-09 05:54:59,882 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:54:59,971 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 63
+2018-12-09 05:54:59,972 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:54:59,980 reveal_service.py[line:85] WARNING [process] 添加 roomid 60
+2018-12-09 05:54:59,993 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 64
+2018-12-09 05:54:59,993 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:55:00,060 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2683
+2018-12-09 05:55:00,149 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2683
+2018-12-09 05:55:00,235 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2683
+2018-12-09 05:55:00,322 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2683
+2018-12-09 05:55:00,405 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2683
+2018-12-09 05:55:00,433 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":60,"game_id":2683,"house_seed":"18aac29c531dfed1a8cfa8d57a1470b04dc80e814b2487fa9e1c8f7e4...\n'
+2018-12-09 05:55:00,758 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 60
+2018-12-09 05:55:00,758 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:55:19,618 reveal_service.py[line:85] WARNING [process] 添加 roomid 68
+2018-12-09 05:55:19,703 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=68 game=3
+2018-12-09 05:55:19,843 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=68 game=3
+2018-12-09 05:55:19,924 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=68 game=3
+2018-12-09 05:55:19,996 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":68,"game_id":3,"house_seed":"35aa0cc81f7c596e76ab2346b9ce5dbc67411395c4d1d928168eac7ed740...\n'
+2018-12-09 05:55:20,459 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 68
+2018-12-09 05:55:20,459 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:55:49,180 reveal_service.py[line:85] WARNING [process] 添加 roomid 55
+2018-12-09 05:55:49,271 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4226
+2018-12-09 05:55:49,400 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4226
+2018-12-09 05:55:49,487 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4226
+2018-12-09 05:55:49,574 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4226
+2018-12-09 05:55:49,657 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=55 game=4226
+2018-12-09 05:55:49,667 reveal_service.py[line:85] WARNING [process] 添加 roomid 58
+2018-12-09 05:55:49,680 reveal_service.py[line:85] WARNING [process] 添加 roomid 63
+2018-12-09 05:55:49,694 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":55,"game_id":4226,"house_seed":"7c856a0adb5c74d47257da1db12987ed339a72aeb70db7739a67d4048...\n'
+2018-12-09 05:55:49,697 reveal_service.py[line:85] WARNING [process] 添加 roomid 64
+2018-12-09 05:55:49,732 reveal_service.py[line:85] WARNING [process] 添加 roomid 66
+2018-12-09 05:55:49,877 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3064
+2018-12-09 05:55:49,883 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=63 game=1090
+2018-12-09 05:55:49,888 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4369
+2018-12-09 05:55:49,893 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=6
+2018-12-09 05:55:50,018 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 55
+2018-12-09 05:55:50,018 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:55:50,056 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3064
+2018-12-09 05:55:50,056 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=63 game=1090
+2018-12-09 05:55:50,056 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4369
+2018-12-09 05:55:50,056 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=6
+2018-12-09 05:55:50,073 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":63,"game_id":1090,"house_seed":"c6b1c3a4a07b750997dbbffe4d87f911e704a8762bfbd7c94077f00b1...\n'
+2018-12-09 05:55:50,150 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=58 game=3064
+2018-12-09 05:55:50,155 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=64 game=4369
+2018-12-09 05:55:50,161 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=6
+2018-12-09 05:55:50,253 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":64,"game_id":4369,"house_seed":"e03fa694789bc5c2d9c0c24d40eea3db3c5ac7566e18b86ee6af57cad...\n'
+2018-12-09 05:55:50,292 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=66 game=6
+2018-12-09 05:55:50,342 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":58,"game_id":3064,"house_seed":"4db202f7817b98a7c36964df39477e29ce5cd456b5e24930464b9e255...\n'
+2018-12-09 05:55:50,370 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":66,"game_id":6,"house_seed":"a3a343580a3d53ad2091cb65ad1300a5521e91961d4dff3cb7c7878365c1...\n'
+2018-12-09 05:55:51,248 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 63
+2018-12-09 05:55:51,248 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:55:51,817 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 66
+2018-12-09 05:55:51,817 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:55:51,824 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 64
+2018-12-09 05:55:51,824 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:55:51,835 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 58
+2018-12-09 05:55:51,836 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:55:56,102 reveal_service.py[line:85] WARNING [process] 添加 roomid 60
+2018-12-09 05:55:56,190 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2684
+2018-12-09 05:55:56,275 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2684
+2018-12-09 05:55:56,361 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2684
+2018-12-09 05:55:56,446 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=60 game=2684
+2018-12-09 05:55:56,461 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":60,"game_id":2684,"house_seed":"418864c6639d735487ca97a9336f59c6a06b26ea99d84fe8c446187cd...\n'
+2018-12-09 05:55:56,954 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 60
+2018-12-09 05:55:56,954 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
+2018-12-09 05:56:11,084 reveal_service.py[line:85] WARNING [process] 添加 roomid 68
+2018-12-09 05:56:11,170 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=68 game=4
+2018-12-09 05:56:11,256 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=68 game=4
+2018-12-09 05:56:11,343 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=68 game=4
+2018-12-09 05:56:11,430 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=68 game=4
+2018-12-09 05:56:11,523 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=68 game=4
+2018-12-09 05:56:11,606 reveal_service.py[line:60] WARNING 房间正在开奖... roomid=68 game=4
+2018-12-09 05:56:11,628 reveal_service.py[line:117] WARNING output== b'#  ffgamebacara <= ffgamebacara::reveal         {"room_id":68,"game_id":4,"house_seed":"12d8b2252726780640924b51f581b71b4b803a374635185031659c0cefe0...\n'
+2018-12-09 05:56:12,185 reveal_service.py[line:151] WARNING [async_call_sub] 移除 roomid 68
+2018-12-09 05:56:12,185 reveal_service.py[line:152] WARNING <app.service.Singleton.Singleton object at 0x7f37737ce390>
