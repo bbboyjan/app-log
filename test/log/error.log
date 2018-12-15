@@ -1,4 +1,0 @@
-2018-12-11 14:59:51,362 reveal_service.py[line:91] ERROR process异常 =Instance <RoomSeedTb at 0x7fb4a8a6ad30> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: http://sqlalche.me/e/bhk3)
-2018-12-11 14:59:51,379 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Instance <RoomSeedTb at 0x7fb4a8a6ad30> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: http://sqlalche.me/e/bhk3)
-2018-12-11 15:00:41,411 reveal_service.py[line:91] ERROR process异常 =Instance <RoomSeedTb at 0x7fb4a8113358> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: http://sqlalche.me/e/bhk3)
-2018-12-11 15:00:41,411 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Instance <RoomSeedTb at 0x7fb4a8113358> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: http://sqlalche.me/e/bhk3)

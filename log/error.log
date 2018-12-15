@@ -1,73 +1,86 @@
-2018-12-08 12:31:18,535 reveal_service.py[line:128] ERROR [async_call_sub] 异常，重试1次 id=41129 roomid=12 game_id=2059 =b'\x1b[31mError 3050003: eosio_assert_message assertion failure\x1b[0m\n\x1b[33mError Details:\nassertion failure with message: 100013 invalid room status\npending console output: \x1b[0m\n'
-2018-12-08 13:33:36,452 reveal_service.py[line:128] ERROR [async_call_sub] 异常，重试1次 id=41838 roomid=12 game_id=2130 =b'\x1b[31mError 3050003: eosio_assert_message assertion failure\x1b[0m\n\x1b[33mError Details:\nassertion failure with message: 100013 invalid room status\npending console output: \x1b[0m\n'
-2018-12-08 14:15:36,836 reveal_service.py[line:128] ERROR [async_call_sub] 异常，重试1次 id=42316 roomid=1 game_id=4188 =b'\x1b[31mError 3050003: eosio_assert_message assertion failure\x1b[0m\n\x1b[33mError Details:\nassertion failure with message: 100013 invalid room status\npending console output: \x1b[0m\n'
-2018-12-08 15:43:48,417 reveal_service.py[line:128] ERROR [async_call_sub] 异常，重试1次 id=43320 roomid=6 game_id=4239 =b'\x1b[31mError 3050003: eosio_assert_message assertion failure\x1b[0m\n\x1b[33mError Details:\nassertion failure with message: 100013 invalid room status\npending console output: \x1b[0m\n'
-2018-12-08 17:47:42,473 reveal_service.py[line:128] ERROR [async_call_sub] 异常，重试1次 id=44559 roomid=8 game_id=3865 =b'\x1b[31mError 3050003: eosio_assert_message assertion failure\x1b[0m\n\x1b[33mError Details:\nassertion failure with message: 100013 invalid room status\npending console output: \x1b[0m\n'
-2018-12-08 19:18:00,816 reveal_service.py[line:128] ERROR [async_call_sub] 异常，重试1次 id=45457 roomid=1 game_id=4531 =b'\x1b[31mError 3050003: eosio_assert_message assertion failure\x1b[0m\n\x1b[33mError Details:\nassertion failure with message: 100013 invalid room status\npending console output: \x1b[0m\n'
-2018-12-08 20:09:06,919 reveal_service.py[line:128] ERROR [async_call_sub] 异常，重试1次 id=46004 roomid=6 game_id=4540 =b'\x1b[31mError 3050003: eosio_assert_message assertion failure\x1b[0m\n\x1b[33mError Details:\nassertion failure with message: 100013 invalid room status\npending console output: \x1b[0m\n'
-2018-12-08 20:16:38,787 seed_service.py[line:125] ERROR no seed data
-2018-12-08 20:16:38,787 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
-2018-12-08 20:16:38,787 views.py[line:78] ERROR api get_seed 异常=no seed data
-2018-12-08 20:21:57,645 seed_service.py[line:125] ERROR no seed data
-2018-12-08 20:21:57,645 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
-2018-12-08 20:21:57,645 views.py[line:78] ERROR api get_seed 异常=no seed data
-2018-12-08 20:54:10,419 seed_service.py[line:125] ERROR no seed data
-2018-12-08 20:54:10,419 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
-2018-12-08 20:54:10,419 views.py[line:78] ERROR api get_seed 异常=no seed data
-2018-12-08 21:11:17,303 reveal_service.py[line:128] ERROR [async_call_sub] 异常，重试1次 id=46640 roomid=24 game_id=1952 =b'error 2018-12-08T21:11:17.302 thread-0  main.cpp:3151                 main                 ] Failed with error: Parse Error (4)\nUnexpected char \'60\' in ""\n\n\n'
-2018-12-08 21:11:24,604 reveal_service.py[line:128] ERROR [async_call_sub] 异常，重试1次 id=46642 roomid=8 game_id=4097 =b'error 2018-12-08T21:11:24.602 thread-0  main.cpp:3151                 main                 ] Failed with error: Parse Error (4)\nUnexpected char \'60\' in ""\n\n\n'
-2018-12-08 21:11:54,985 reveal_service.py[line:128] ERROR [async_call_sub] 异常，重试1次 id=46644 roomid=12 game_id=2578 =b'error 2018-12-08T21:11:54.983 thread-0  main.cpp:3151                 main                 ] Failed with error: Parse Error (4)\nUnexpected char \'60\' in ""\n\n\n'
-2018-12-08 21:11:59,785 reveal_service.py[line:50] ERROR 〓REVEAL〓 自动开奖-获取房间信息遍历执行异常 =Expecting value: line 2 column 1 (char 1)
-2018-12-08 21:12:11,725 seed_service.py[line:125] ERROR no seed data
-2018-12-08 21:12:11,725 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
-2018-12-08 21:12:11,725 views.py[line:78] ERROR api get_seed 异常=no seed data
-2018-12-08 21:16:22,826 reveal_service.py[line:50] ERROR 〓REVEAL〓 自动开奖-获取房间信息遍历执行异常 =Expecting value: line 2 column 1 (char 1)
-2018-12-08 21:21:09,532 reveal_service.py[line:50] ERROR 〓REVEAL〓 自动开奖-获取房间信息遍历执行异常 =Expecting value: line 2 column 1 (char 1)
-2018-12-08 22:20:11,047 seed_service.py[line:125] ERROR no seed data
-2018-12-08 22:20:11,047 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
-2018-12-08 22:20:11,047 views.py[line:78] ERROR api get_seed 异常=no seed data
-2018-12-08 22:26:50,702 seed_service.py[line:125] ERROR no seed data
-2018-12-08 22:26:50,708 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
-2018-12-08 22:26:50,713 views.py[line:78] ERROR api get_seed 异常=no seed data
-2018-12-08 23:08:20,137 seed_service.py[line:125] ERROR no seed data
-2018-12-08 23:08:20,137 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
-2018-12-08 23:08:20,137 views.py[line:78] ERROR api get_seed 异常=no seed data
-2018-12-08 23:10:46,547 seed_service.py[line:125] ERROR no seed data
-2018-12-08 23:10:46,547 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
-2018-12-08 23:10:46,547 views.py[line:78] ERROR api get_seed 异常=no seed data
-2018-12-08 23:35:47,018 seed_service.py[line:125] ERROR no seed data
-2018-12-08 23:35:47,018 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
-2018-12-08 23:35:47,018 views.py[line:78] ERROR api get_seed 异常=no seed data
-2018-12-09 00:06:16,913 seed_service.py[line:125] ERROR no seed data
-2018-12-09 00:06:16,913 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
-2018-12-09 00:06:16,913 views.py[line:78] ERROR api get_seed 异常=no seed data
-2018-12-09 00:06:56,313 seed_service.py[line:125] ERROR no seed data
-2018-12-09 00:06:56,325 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
-2018-12-09 00:06:56,331 views.py[line:78] ERROR api get_seed 异常=no seed data
-2018-12-09 00:09:56,796 seed_service.py[line:125] ERROR no seed data
-2018-12-09 00:09:56,797 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
-2018-12-09 00:09:56,797 views.py[line:78] ERROR api get_seed 异常=no seed data
-2018-12-09 00:10:47,044 seed_service.py[line:125] ERROR no seed data
-2018-12-09 00:10:47,044 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
-2018-12-09 00:10:47,044 views.py[line:78] ERROR api get_seed 异常=no seed data
-2018-12-09 00:11:11,731 seed_service.py[line:125] ERROR no seed data
-2018-12-09 00:11:11,731 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
-2018-12-09 00:11:11,732 views.py[line:78] ERROR api get_seed 异常=no seed data
-2018-12-09 00:11:27,069 seed_service.py[line:125] ERROR no seed data
-2018-12-09 00:11:27,069 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
-2018-12-09 00:11:27,069 views.py[line:78] ERROR api get_seed 异常=no seed data
-2018-12-09 00:14:55,124 seed_service.py[line:125] ERROR no seed data
-2018-12-09 00:14:55,124 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
-2018-12-09 00:14:55,124 views.py[line:78] ERROR api get_seed 异常=no seed data
-2018-12-09 00:15:38,963 seed_service.py[line:125] ERROR no seed data
-2018-12-09 00:15:38,963 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
-2018-12-09 00:15:38,963 views.py[line:78] ERROR api get_seed 异常=no seed data
-2018-12-09 00:52:43,318 seed_service.py[line:125] ERROR no seed data
-2018-12-09 00:52:43,318 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
-2018-12-09 00:52:43,318 views.py[line:78] ERROR api get_seed 异常=no seed data
-2018-12-09 00:52:43,321 seed_service.py[line:125] ERROR no seed data
-2018-12-09 00:52:43,321 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
-2018-12-09 00:52:43,322 views.py[line:78] ERROR api get_seed 异常=no seed data
-2018-12-09 00:52:43,567 seed_service.py[line:125] ERROR no seed data
-2018-12-09 00:52:43,567 seed_service.py[line:44] ERROR get_seed 异常 =no seed data
-2018-12-09 00:52:43,567 views.py[line:78] ERROR api get_seed 异常=no seed data
+2018-12-14 23:25:54,140 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-14 23:33:14,883 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-14 23:33:26,674 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-14 23:46:29,144 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-14 23:50:57,029 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 00:02:37,640 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 00:05:51,662 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 00:08:02,222 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 00:09:16,765 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 00:12:10,021 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 00:39:21,284 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 00:40:47,104 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 00:42:59,396 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 00:50:36,282 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 00:53:18,104 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 00:56:12,142 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 00:56:43,177 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 00:58:05,841 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 00:59:02,441 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 00:59:33,162 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 00:59:57,433 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 01:04:19,578 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 01:12:48,989 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 01:13:51,185 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 01:14:27,352 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 01:16:25,055 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 01:21:10,749 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 01:21:37,613 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 01:23:35,646 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 01:24:06,365 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 01:25:08,046 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 01:26:12,370 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 01:26:53,009 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 01:37:44,941 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 01:42:49,581 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 01:45:10,381 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 01:47:53,703 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 01:49:57,629 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 01:54:25,920 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 02:02:32,057 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 02:05:15,734 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 02:16:16,599 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 02:23:07,880 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 02:32:15,591 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 02:32:39,653 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 02:33:09,368 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 02:40:14,581 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 02:41:57,219 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 02:42:27,701 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 02:43:59,862 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 02:45:29,463 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 02:46:00,182 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 02:49:46,197 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 02:54:24,878 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 02:56:02,522 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 02:56:33,239 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 02:57:58,978 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 02:59:50,359 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 03:09:12,308 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 03:13:35,990 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 03:14:06,441 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 03:22:47,574 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 03:24:30,794 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 03:24:44,531 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 03:34:30,643 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 03:35:27,478 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 03:36:18,668 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 03:36:49,898 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 03:42:14,998 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 03:46:42,774 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 03:47:38,823 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 03:50:26,518 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 03:54:26,377 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 03:54:57,367 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 03:55:55,222 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 03:56:07,871 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 04:02:29,956 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 04:04:30,737 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 04:05:26,033 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 04:05:38,008 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 04:06:34,643 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 04:07:59,636 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 04:11:19,315 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 04:51:56,231 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 04:58:49,195 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
+2018-12-15 05:01:28,195 reveal_service.py[line:52] ERROR 〓REVEAL〓 自动开奖 =Expecting value: line 1 column 1 (char 0)
